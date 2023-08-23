@@ -10,3 +10,15 @@ C:\Comp Prog\Maze\Maze\obj\Debug\Maze.vbproj.CoreCompileInputs.cache
 C:\Comp Prog\Maze\Maze\obj\Debug\Maze.exe
 C:\Comp Prog\Maze\Maze\obj\Debug\Maze.xml
 C:\Comp Prog\Maze\Maze\obj\Debug\Maze.pdb
+C:\code-class\Comp Prog\Maze\Maze\bin\Debug\Maze.exe.config
+C:\code-class\Comp Prog\Maze\Maze\bin\Debug\Maze.exe
+C:\code-class\Comp Prog\Maze\Maze\bin\Debug\Maze.pdb
+C:\code-class\Comp Prog\Maze\Maze\bin\Debug\Maze.xml
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.Form1.resources
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.Resources.resources
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.exe
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.xml
+C:\code-class\Comp Prog\Maze\Maze\obj\Debug\Maze.pdb
