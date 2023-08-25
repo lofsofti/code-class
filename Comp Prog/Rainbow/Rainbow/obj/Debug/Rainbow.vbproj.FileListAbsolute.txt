@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.Form1.resources
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.Resources.resources
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Rainbow\Rainbow\bin\Debug\Rainbow.exe.config
+C:\code-class\Comp Prog\Rainbow\Rainbow\bin\Debug\Rainbow.exe
+C:\code-class\Comp Prog\Rainbow\Rainbow\bin\Debug\Rainbow.pdb
+C:\code-class\Comp Prog\Rainbow\Rainbow\bin\Debug\Rainbow.xml
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.exe
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.xml
+C:\code-class\Comp Prog\Rainbow\Rainbow\obj\Debug\Rainbow.pdb
