@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Colleges\Colleges\bin\Debug\Colleges.exe.config
+C:\code-class\Comp Prog\Colleges\Colleges\bin\Debug\Colleges.exe
+C:\code-class\Comp Prog\Colleges\Colleges\bin\Debug\Colleges.pdb
+C:\code-class\Comp Prog\Colleges\Colleges\bin\Debug\Colleges.xml
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.Form1.resources
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.Resources.resources
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.exe
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.xml
+C:\code-class\Comp Prog\Colleges\Colleges\obj\Debug\Colleges.pdb
