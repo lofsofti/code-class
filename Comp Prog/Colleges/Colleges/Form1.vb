@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports Microsoft.VisualBasic.Devices
+
+Public Class Form1
     Private Sub btnUmich_Click(sender As Object, e As EventArgs) Handles btnUmich.Click
         lblMascot.Text = "Biff the Wolverine"
         lblMascot.ForeColor = Color.Blue

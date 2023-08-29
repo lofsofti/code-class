@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91D5C8E3-A293-4711-A07A-7BDD304FB94A}</ProjectGuid>
+    <ProjectGuid>{E5C9D1DF-B81E-46E3-AE75-41C3D611E3D2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Colleges.My.MyApplication</StartupObject>
-    <RootNamespace>Colleges</RootNamespace>
-    <AssemblyName>Colleges</AssemblyName>
+    <StartupObject>conditions.My.MyApplication</StartupObject>
+    <RootNamespace>conditions</RootNamespace>
+    <AssemblyName>conditions</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Colleges.xml</DocumentationFile>
+    <DocumentationFile>conditions.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Colleges.xml</DocumentationFile>
+    <DocumentationFile>conditions.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -73,8 +73,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
-    <Compile Include="Class2.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
