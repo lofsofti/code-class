@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Schedule\Schedule\bin\Debug\Schedule.exe.config
+C:\code-class\Comp Prog\Schedule\Schedule\bin\Debug\Schedule.exe
+C:\code-class\Comp Prog\Schedule\Schedule\bin\Debug\Schedule.pdb
+C:\code-class\Comp Prog\Schedule\Schedule\bin\Debug\Schedule.xml
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.Form1.resources
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.Resources.resources
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.exe
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.xml
+C:\code-class\Comp Prog\Schedule\Schedule\obj\Debug\Schedule.pdb
