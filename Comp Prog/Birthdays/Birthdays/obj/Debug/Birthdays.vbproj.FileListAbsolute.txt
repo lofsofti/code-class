@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Birthdays\Birthdays\bin\Debug\Birthdays.exe.config
+C:\code-class\Comp Prog\Birthdays\Birthdays\bin\Debug\Birthdays.exe
+C:\code-class\Comp Prog\Birthdays\Birthdays\bin\Debug\Birthdays.pdb
+C:\code-class\Comp Prog\Birthdays\Birthdays\bin\Debug\Birthdays.xml
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.Form1.resources
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.Resources.resources
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.exe
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.xml
+C:\code-class\Comp Prog\Birthdays\Birthdays\obj\Debug\Birthdays.pdb
