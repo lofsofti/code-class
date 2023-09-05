@@ -108,7 +108,21 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\adam.png" />
+    <Content Include="bin\Debug\adamv2.png" />
     <Content Include="bin\Debug\ali.png" />
+    <Content Include="bin\Debug\chris.png" />
+    <Content Include="bin\Debug\chunkz.png" />
+    <Content Include="bin\Debug\dobrik.png" />
+    <Content Include="bin\Debug\keiichi.png" />
+    <Content Include="bin\Debug\maxv.png" />
+    <Content Include="bin\Debug\maxv2.png" />
+    <Content Include="bin\Debug\maxv3.png" />
+    <Content Include="bin\Debug\mj.png" />
+    <Content Include="bin\Debug\notch.png" />
+    <Content Include="bin\Debug\notchv2.png" />
+    <Content Include="bin\Debug\pewds.png" />
+    <Content Include="bin\Debug\seuss.png" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
