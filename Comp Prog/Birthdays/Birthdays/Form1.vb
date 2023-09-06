@@ -5,7 +5,7 @@
         lblPpl.Text = "Keiichi Tsuchiya"
         lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
         lblDOB.Text = "January 30th, 1956"
-        lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblDOB.Font = New Font("Perpetua Titling MT", 12, FontStyle.Regular)
     End Sub
     'FEBRUARY
     Private Sub btnFeb_Click(sender As Object, e As EventArgs) Handles btnFeb.Click
@@ -13,7 +13,7 @@
         lblPpl.Text = "Aj Shabeel"
         lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
         lblDOB.Text = "February 21st, 1996"
-        lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblDOB.Font = New Font("Perpetua Titling MT", 12, FontStyle.Regular)
     End Sub
     'MARCH
     Private Sub btnMar_Click(sender As Object, e As EventArgs) Handles btnMar.Click
@@ -61,7 +61,7 @@
         lblPpl.Text = "Michael Jackson"
         lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
         lblDOB.Text = "August 29th, 1958"
-        lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblDOB.Font = New Font("Perpetua Titling MT", 12, FontStyle.Regular)
     End Sub
     'SEPTEMBER
     Private Sub btnSept_Click(sender As Object, e As EventArgs) Handles btnSept.Click
@@ -73,26 +73,26 @@
     End Sub
     'OCTOBER
     Private Sub btnOct_Click(sender As Object, e As EventArgs) Handles btnOct.Click
-        PictureBox1.Image = Image.FromFile("pewds.png")
+        PictureBox1.Image = Image.FromFile("pewdss.png")
         lblPpl.Text = "Felix Kjellberg"
         lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
         lblDOB.Text = "October 24th, 1989"
-        lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblDOB.Font = New Font("Perpetua Titling MT", 14, FontStyle.Regular)
     End Sub
     'NOVEMBER
     Private Sub btnNov_Click(sender As Object, e As EventArgs) Handles btnNov.Click
-        PictureBox1.Image = Image.FromFile("")
-        lblPpl.Text = ""
+        PictureBox1.Image = Image.FromFile("bruce.png")
+        lblPpl.Text = "Bruce Lee"
         lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
-        lblDOB.Text = ""
-        lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblDOB.Text = "November 27th, 1940"
+        lblDOB.Font = New Font("Perpetua Titling MT", 12, FontStyle.Regular)
     End Sub
     'DECEMBER
     Private Sub btnDec_Click(sender As Object, e As EventArgs) Handles btnDec.Click
-        PictureBox1.Image = Image.FromFile("")
-        lblPpl.Text = ""
+        PictureBox1.Image = Image.FromFile("kai.png")
+        lblPpl.Text = "Kai Cenat III"
         lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
-        lblDOB.Text = ""
-        lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblDOB.Text = "December 16, 2001"
+        lblDOB.Font = New Font("Perpetua Titling MT", 14, FontStyle.Regular)
     End Sub
 End Class
