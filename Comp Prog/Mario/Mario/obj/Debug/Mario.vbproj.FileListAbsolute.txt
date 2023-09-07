@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Mario\Mario\bin\Debug\Mario.exe.config
+C:\code-class\Comp Prog\Mario\Mario\bin\Debug\Mario.exe
+C:\code-class\Comp Prog\Mario\Mario\bin\Debug\Mario.pdb
+C:\code-class\Comp Prog\Mario\Mario\bin\Debug\Mario.xml
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.Form1.resources
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.Resources.resources
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.exe
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.xml
+C:\code-class\Comp Prog\Mario\Mario\obj\Debug\Mario.pdb
