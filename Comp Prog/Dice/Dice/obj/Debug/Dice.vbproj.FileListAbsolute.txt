@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Dice\Dice\bin\Debug\Dice.exe.config
+C:\code-class\Comp Prog\Dice\Dice\bin\Debug\Dice.exe
+C:\code-class\Comp Prog\Dice\Dice\bin\Debug\Dice.pdb
+C:\code-class\Comp Prog\Dice\Dice\bin\Debug\Dice.xml
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.Form1.resources
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.Resources.resources
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.exe
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.xml
+C:\code-class\Comp Prog\Dice\Dice\obj\Debug\Dice.pdb
