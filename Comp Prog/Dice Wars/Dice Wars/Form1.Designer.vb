@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.die1 = New System.Windows.Forms.PictureBox()
@@ -34,8 +35,13 @@ Partial Class Form1
         Me.lblcwin = New System.Windows.Forms.Label()
         Me.lblplaywin = New System.Windows.Forms.Label()
         Me.lblcompwin = New System.Windows.Forms.Label()
+        Me.pArrow = New System.Windows.Forms.PictureBox()
+        Me.cArrow = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.die1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.die2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pArrow, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cArrow, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -71,6 +77,7 @@ Partial Class Form1
         'lblplayer
         '
         Me.lblplayer.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblplayer.ForeColor = System.Drawing.Color.Gainsboro
         Me.lblplayer.Location = New System.Drawing.Point(31, 84)
         Me.lblplayer.Name = "lblplayer"
         Me.lblplayer.Size = New System.Drawing.Size(150, 38)
@@ -81,6 +88,7 @@ Partial Class Form1
         'lblcomp
         '
         Me.lblcomp.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblcomp.ForeColor = System.Drawing.Color.Gainsboro
         Me.lblcomp.Location = New System.Drawing.Point(321, 84)
         Me.lblcomp.Name = "lblcomp"
         Me.lblcomp.Size = New System.Drawing.Size(150, 38)
@@ -91,7 +99,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(191, 325)
+        Me.Button1.Location = New System.Drawing.Point(191, 447)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(124, 38)
         Me.Button1.TabIndex = 5
@@ -110,7 +118,8 @@ Partial Class Form1
         'lblpwin
         '
         Me.lblpwin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblpwin.Location = New System.Drawing.Point(31, 315)
+        Me.lblpwin.ForeColor = System.Drawing.Color.Silver
+        Me.lblpwin.Location = New System.Drawing.Point(31, 447)
         Me.lblpwin.Name = "lblpwin"
         Me.lblpwin.Size = New System.Drawing.Size(150, 23)
         Me.lblpwin.TabIndex = 7
@@ -120,7 +129,8 @@ Partial Class Form1
         'lblcwin
         '
         Me.lblcwin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblcwin.Location = New System.Drawing.Point(321, 315)
+        Me.lblcwin.ForeColor = System.Drawing.Color.Silver
+        Me.lblcwin.Location = New System.Drawing.Point(321, 447)
         Me.lblcwin.Name = "lblcwin"
         Me.lblcwin.Size = New System.Drawing.Size(150, 23)
         Me.lblcwin.TabIndex = 8
@@ -131,7 +141,7 @@ Partial Class Form1
         '
         Me.lblplaywin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblplaywin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblplaywin.Location = New System.Drawing.Point(57, 358)
+        Me.lblplaywin.Location = New System.Drawing.Point(57, 480)
         Me.lblplaywin.Name = "lblplaywin"
         Me.lblplaywin.Size = New System.Drawing.Size(100, 50)
         Me.lblplaywin.TabIndex = 9
@@ -142,18 +152,47 @@ Partial Class Form1
         '
         Me.lblcompwin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblcompwin.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblcompwin.Location = New System.Drawing.Point(352, 358)
+        Me.lblcompwin.Location = New System.Drawing.Point(352, 480)
         Me.lblcompwin.Name = "lblcompwin"
         Me.lblcompwin.Size = New System.Drawing.Size(100, 50)
         Me.lblcompwin.TabIndex = 10
         Me.lblcompwin.Text = "0"
         Me.lblcompwin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'pArrow
+        '
+        Me.pArrow.Image = CType(resources.GetObject("pArrow.Image"), System.Drawing.Image)
+        Me.pArrow.Location = New System.Drawing.Point(57, 281)
+        Me.pArrow.Name = "pArrow"
+        Me.pArrow.Size = New System.Drawing.Size(100, 153)
+        Me.pArrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pArrow.TabIndex = 11
+        Me.pArrow.TabStop = False
+        Me.pArrow.Visible = False
+        '
+        'cArrow
+        '
+        Me.cArrow.Image = CType(resources.GetObject("cArrow.Image"), System.Drawing.Image)
+        Me.cArrow.Location = New System.Drawing.Point(352, 281)
+        Me.cArrow.Name = "cArrow"
+        Me.cArrow.Size = New System.Drawing.Size(100, 153)
+        Me.cArrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.cArrow.TabIndex = 12
+        Me.cArrow.TabStop = False
+        Me.cArrow.Visible = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 850
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(503, 450)
+        Me.BackColor = System.Drawing.Color.DarkMagenta
+        Me.ClientSize = New System.Drawing.Size(503, 578)
+        Me.Controls.Add(Me.cArrow)
+        Me.Controls.Add(Me.pArrow)
         Me.Controls.Add(Me.lblcompwin)
         Me.Controls.Add(Me.lblplaywin)
         Me.Controls.Add(Me.lblcwin)
@@ -166,9 +205,12 @@ Partial Class Form1
         Me.Controls.Add(Me.die1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         CType(Me.die1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.die2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pArrow, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cArrow, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -184,4 +226,7 @@ Partial Class Form1
     Friend WithEvents lblcwin As Label
     Friend WithEvents lblplaywin As Label
     Friend WithEvents lblcompwin As Label
+    Friend WithEvents pArrow As PictureBox
+    Friend WithEvents cArrow As PictureBox
+    Friend WithEvents Timer1 As Timer
 End Class
