@@ -1,0 +1,12 @@
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\bin\Debug\Dice Wars.exe.config
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\bin\Debug\Dice Wars.exe
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\bin\Debug\Dice Wars.pdb
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\bin\Debug\Dice Wars.xml
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice Wars.vbproj.AssemblyReference.cache
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice_Wars.Form1.resources
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice_Wars.Resources.resources
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice Wars.vbproj.GenerateResource.cache
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice Wars.vbproj.CoreCompileInputs.cache
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice Wars.exe
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice Wars.xml
+H:\skool\code-class\Comp Prog\Dice Wars\Dice Wars\obj\Debug\Dice Wars.pdb

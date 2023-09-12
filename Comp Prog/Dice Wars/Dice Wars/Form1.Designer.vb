@@ -105,6 +105,7 @@ Partial Class Form1
         Me.lblwin.Name = "lblwin"
         Me.lblwin.Size = New System.Drawing.Size(128, 133)
         Me.lblwin.TabIndex = 6
+        Me.lblwin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblpwin
         '
@@ -134,6 +135,7 @@ Partial Class Form1
         Me.lblplaywin.Name = "lblplaywin"
         Me.lblplaywin.Size = New System.Drawing.Size(100, 50)
         Me.lblplaywin.TabIndex = 9
+        Me.lblplaywin.Text = "0"
         Me.lblplaywin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblcompwin
@@ -144,6 +146,7 @@ Partial Class Form1
         Me.lblcompwin.Name = "lblcompwin"
         Me.lblcompwin.Size = New System.Drawing.Size(100, 50)
         Me.lblcompwin.TabIndex = 10
+        Me.lblcompwin.Text = "0"
         Me.lblcompwin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
