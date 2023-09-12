@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+
+Public Class Form1
     Private Sub Label30_Click(sender As Object, e As EventArgs) Handles Label30.Click
         MsgBox("You finished!")
     End Sub
@@ -88,6 +90,9 @@
         Windows.Forms.Cursor.Position = New Point(560, 344)
     End Sub
     Private Sub Label29_MouseEnter(sender As Object, e As EventArgs) Handles Label29.MouseEnter
+        Windows.Forms.Cursor.Position = New Point(560, 344)
+    End Sub
+    Private Sub Form1_MouseClick(sender As Object, e As MouseEventArgs) Handles Me.MouseClick
         Windows.Forms.Cursor.Position = New Point(560, 344)
     End Sub
 End Class

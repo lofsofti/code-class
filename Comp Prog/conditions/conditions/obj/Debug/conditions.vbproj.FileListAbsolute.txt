@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\conditions\conditions\bin\Debug\conditions.exe.config
+C:\code-class\Comp Prog\conditions\conditions\bin\Debug\conditions.exe
+C:\code-class\Comp Prog\conditions\conditions\bin\Debug\conditions.pdb
+C:\code-class\Comp Prog\conditions\conditions\bin\Debug\conditions.xml
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.Form1.resources
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.Resources.resources
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.exe
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.xml
+C:\code-class\Comp Prog\conditions\conditions\obj\Debug\conditions.pdb

@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\bin\Debug\PictureBoxDemo.exe.config
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\bin\Debug\PictureBoxDemo.exe
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\bin\Debug\PictureBoxDemo.pdb
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\bin\Debug\PictureBoxDemo.xml
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.Form1.resources
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.Resources.resources
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.exe
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.xml
+C:\code-class\Comp Prog\PictureBoxDemo\PictureBoxDemo\obj\Debug\PictureBoxDemo.pdb
