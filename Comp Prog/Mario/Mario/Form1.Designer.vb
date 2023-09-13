@@ -76,6 +76,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lava)
         Me.Controls.Add(Me.mario)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         CType(Me.mario, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.bowser, System.ComponentModel.ISupportInitialize).EndInit()

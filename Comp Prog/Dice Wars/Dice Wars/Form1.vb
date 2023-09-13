@@ -1,10 +1,13 @@
 ﻿Imports System.Net.Security
 
 Public Class Form1
-    Dim pRoll, cRoll, pWins, cWins As Integer
+    Dim pRoll, cRoll, pWins, cWins, pTotWins, cTotWins, gameNum, WinRate As Integer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pWins = 0
+        pTotWins = 0
         cWins = 0
+        cTotWins = 0
+        gameNum = 1
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Randomize()
@@ -20,6 +23,10 @@ Public Class Form1
         If pArrow.Visible = True Then pArrow.Visible = False
         If cArrow.Visible = True Then cArrow.Visible = False
         lblwin.Text = " "
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 
     Public Sub ShowDice()
@@ -61,6 +68,10 @@ Public Class Form1
             cWins = 0
             lblplaywin.Text = "0"
             lblcompwin.Text = "0"
+            pTotWins = pTotWins + 1
+            lblpWins.Text = pTotWins
+            gameNum = gameNum + 1
+            lblgame.Text = gameNum
         End If
         If cWins = 10 Then
             MsgBox("Computer Wins the Dice War!")
@@ -68,6 +79,10 @@ Public Class Form1
             cWins = 0
             lblplaywin.Text = "0"
             lblcompwin.Text = "0"
+            cTotWins = cTotWins + 1
+            lblcWins.Text = cTotWins
+            gameNum = gameNum + 1
+            lblgame.Text = gameNum
         End If
     End Sub
 End Class
