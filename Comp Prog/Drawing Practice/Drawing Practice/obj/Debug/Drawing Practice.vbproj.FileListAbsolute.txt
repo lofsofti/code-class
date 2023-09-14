@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\bin\Debug\Drawing Practice.exe.config
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\bin\Debug\Drawing Practice.exe
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\bin\Debug\Drawing Practice.pdb
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\bin\Debug\Drawing Practice.xml
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing Practice.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing_Practice.Form1.resources
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing_Practice.Resources.resources
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing Practice.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing Practice.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing Practice.exe
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing Practice.xml
+C:\code-class\Comp Prog\Drawing Practice\Drawing Practice\obj\Debug\Drawing Practice.pdb
