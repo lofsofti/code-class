@@ -118,6 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 9</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 69</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Dice Wars!</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="die1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBhQQEBQUEBQUFRUUFxUaFhYVFhgUGBcXGRUVGBUWFxoY
@@ -246,6 +277,31 @@
         Ceyw/aKt+72na5A9uoFvgOlFFeWuitYrgf2o+wf5hRRXqLsDrXl4g2jAGxBF9bEag+dFFEXPCcG+23zp
         xRRREUlFFEXHFfQ+2PkacUUURFFFFERRRRRElApaKIv/2Q==
 </value>
+  </data>
+  <data name="die1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 125</value>
+  </data>
+  <data name="die1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="die1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="die1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;die1.Name" xml:space="preserve">
+    <value>die1</value>
+  </data>
+  <data name="&gt;&gt;die1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;die1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;die1.ZOrder" xml:space="preserve">
+    <value>20</value>
   </data>
   <data name="die2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -376,10 +432,268 @@
         xRRREUlFFEXHFfQ+2PkacUUURFFFFERRRRRElApaKIv/2Q==
 </value>
   </data>
+  <data name="die2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 125</value>
+  </data>
+  <data name="die2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="die2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="die2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;die2.Name" xml:space="preserve">
+    <value>die2</value>
+  </data>
+  <data name="&gt;&gt;die2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;die2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;die2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblplayer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblplayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 36</value>
+  </data>
+  <data name="lblplayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblplayer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblplayer.Text" xml:space="preserve">
+    <value>player</value>
+  </data>
+  <data name="lblplayer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblplayer.Name" xml:space="preserve">
+    <value>lblplayer</value>
+  </data>
+  <data name="&gt;&gt;lblplayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblplayer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblplayer.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblcomp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblcomp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 36</value>
+  </data>
+  <data name="lblcomp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblcomp.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblcomp.Text" xml:space="preserve">
+    <value>computer</value>
+  </data>
+  <data name="lblcomp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblcomp.Name" xml:space="preserve">
+    <value>lblcomp</value>
+  </data>
+  <data name="&gt;&gt;lblcomp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcomp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblcomp.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 447</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 38</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>roll</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblwin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblwin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 135</value>
+  </data>
+  <data name="lblwin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 133</value>
+  </data>
+  <data name="lblwin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblwin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblwin.Name" xml:space="preserve">
+    <value>lblwin</value>
+  </data>
+  <data name="&gt;&gt;lblwin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblwin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblwin.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblpwin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblpwin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 447</value>
+  </data>
+  <data name="lblpwin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="lblpwin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblpwin.Text" xml:space="preserve">
+    <value>player wins</value>
+  </data>
+  <data name="lblpwin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblpwin.Name" xml:space="preserve">
+    <value>lblpwin</value>
+  </data>
+  <data name="&gt;&gt;lblpwin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblpwin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblpwin.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblcwin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblcwin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 447</value>
+  </data>
+  <data name="lblcwin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="lblcwin.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblcwin.Text" xml:space="preserve">
+    <value>computer wins</value>
+  </data>
+  <data name="lblcwin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblcwin.Name" xml:space="preserve">
+    <value>lblcwin</value>
+  </data>
+  <data name="&gt;&gt;lblcwin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcwin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblcwin.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblplaywin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblplaywin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 480</value>
+  </data>
+  <data name="lblplaywin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
+  </data>
+  <data name="lblplaywin.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblplaywin.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblplaywin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblplaywin.Name" xml:space="preserve">
+    <value>lblplaywin</value>
+  </data>
+  <data name="&gt;&gt;lblplaywin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblplaywin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblplaywin.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblcompwin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblcompwin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 480</value>
+  </data>
+  <data name="lblcompwin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
+  </data>
+  <data name="lblcompwin.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblcompwin.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblcompwin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblcompwin.Name" xml:space="preserve">
+    <value>lblcompwin</value>
+  </data>
+  <data name="&gt;&gt;lblcompwin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcompwin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblcompwin.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="pArrow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATsAAAKDCAYAAABlra1CAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        7QAACu0BAohJwQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAADslSURBVHhe
+        6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAADslSURBVHhe
         7d1nlBzVue7x88nT3TPCGOMABiNNHmUkQOScgxEZAwZsbIONswEjcpZEEEEJBJpRDiZnkITI0USTszHm
         2Mfh3HPuvWvdu+6XfffuVmtqep7pqdqqKVVX/z/81jrrOViarv3uR91ds7v/zRgDAJknQwDIGhkCQNbI
         EACyRoYAkDUyBICskSEAZI0MASBrZAgAWSNDAMgaGWLD3f3g/zJTLv+HOedSIJorZvzLvP7W/7VjpGcL
@@ -634,11 +948,38 @@
         DIG4nXLu8n5F971zltn/l/7vgbjJEBgKDz35rrn6tsfN9FvXGvd/V/7/gaEkQwDIGhkCQNbIEACyRoYA
         kDUyBICskSEAZIv5t/8PvBsmk5DBXcEAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="pArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 281</value>
+  </data>
+  <data name="pArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 153</value>
+  </data>
+  <data name="pArrow.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="pArrow.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pArrow.Name" xml:space="preserve">
+    <value>pArrow</value>
+  </data>
+  <data name="&gt;&gt;pArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pArrow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pArrow.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="cArrow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATsAAAKDCAYAAABlra1CAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        7AAACuwB0M+rJQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAADslSURBVHhe
+        6gAACuoBUMzvvgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAADslSURBVHhe
         7d1nlBzVue7x88nT3TPCGOMABiNNHmUkQOScgxEZAwZsbIONswEjcpZEEEEJBJpRDiZnkITI0USTszHm
         2Mfh3HPuvWvdu+6XfffuVmtqep7pqdqqKVVX/z/81jrrOViarv3uR91ds7v/zRgDAJknQwDIGhkCQNbI
         EACyRoYAkDUyBICskSEAZI0MASBrZAgAWSNDAMgaGWLD3f3g/zJTLv+HOedSIJorZvzLvP7W/7VjpGcL
@@ -894,7 +1235,304 @@
         kDUyBICskSEAZIv5t/8PvBsmk5DBXcEAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="cArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 281</value>
+  </data>
+  <data name="cArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 153</value>
+  </data>
+  <data name="cArrow.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="cArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cArrow.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cArrow.Name" xml:space="preserve">
+    <value>cArrow</value>
+  </data>
+  <data name="&gt;&gt;cArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cArrow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cArrow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="lblpWins.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblpWins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 78</value>
+  </data>
+  <data name="lblpWins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblpWins.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblpWins.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblpWins.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblpWins.Name" xml:space="preserve">
+    <value>lblpWins</value>
+  </data>
+  <data name="&gt;&gt;lblpWins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblpWins.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblpWins.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblcWins.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblcWins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 78</value>
+  </data>
+  <data name="lblcWins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblcWins.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblcWins.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblcWins.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblcWins.Name" xml:space="preserve">
+    <value>lblcWins</value>
+  </data>
+  <data name="&gt;&gt;lblcWins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcWins.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblcWins.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTotalWins.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblTotalWins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 80</value>
+  </data>
+  <data name="lblTotalWins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblTotalWins.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblTotalWins.Text" xml:space="preserve">
+    <value>&lt;- Total WIns -&gt;</value>
+  </data>
+  <data name="lblTotalWins.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTotalWins.Name" xml:space="preserve">
+    <value>lblTotalWins</value>
+  </data>
+  <data name="&gt;&gt;lblTotalWins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalWins.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTotalWins.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblgame.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblgame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 4</value>
+  </data>
+  <data name="lblgame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 38</value>
+  </data>
+  <data name="lblgame.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblgame.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblgame.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblgame.Name" xml:space="preserve">
+    <value>lblgame</value>
+  </data>
+  <data name="&gt;&gt;lblgame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblgame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblgame.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 4</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 38</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>game </value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblpWinRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblpWinRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 536</value>
+  </data>
+  <data name="lblpWinRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblpWinRate.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblpWinRate.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblpWinRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblpWinRate.Name" xml:space="preserve">
+    <value>lblpWinRate</value>
+  </data>
+  <data name="&gt;&gt;lblpWinRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblpWinRate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblpWinRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblcWInRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="lblcWInRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 536</value>
+  </data>
+  <data name="lblcWInRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblcWInRate.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblcWInRate.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblcWInRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblcWInRate.Name" xml:space="preserve">
+    <value>lblcWInRate</value>
+  </data>
+  <data name="&gt;&gt;lblcWInRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblcWInRate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblcWInRate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblWinRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="lblWinRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 531</value>
+  </data>
+  <data name="lblWinRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 38</value>
+  </data>
+  <data name="lblWinRate.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblWinRate.Text" xml:space="preserve">
+    <value>&lt;- WinRate -&gt;</value>
+  </data>
+  <data name="lblWinRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblWinRate.Name" xml:space="preserve">
+    <value>lblWinRate</value>
+  </data>
+  <data name="&gt;&gt;lblWinRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWinRate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblWinRate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>503, 578</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

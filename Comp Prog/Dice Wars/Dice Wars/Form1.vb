@@ -70,6 +70,8 @@ Public Class Form1
             lblcompwin.Text = "0"
             pTotWins = pTotWins + 1
             lblpWins.Text = pTotWins
+            lblcWInRate.Text = Math.Round(cTotWins / gameNum * 100, 2) & "%"
+            lblpWinRate.Text = Math.Round(pTotWins / gameNum * 100, 2) & "%"
             gameNum = gameNum + 1
             lblgame.Text = gameNum
         End If
@@ -81,6 +83,8 @@ Public Class Form1
             lblcompwin.Text = "0"
             cTotWins = cTotWins + 1
             lblcWins.Text = cTotWins
+            lblcWInRate.Text = Math.Round(cTotWins / gameNum * 100, 2) & "%"
+            lblpWinRate.Text = Math.Round(pTotWins / gameNum * 100, 2) & "%"
             gameNum = gameNum + 1
             lblgame.Text = gameNum
         End If
