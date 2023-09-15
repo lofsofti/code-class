@@ -29,5 +29,7 @@
         'g.FillRectangle(Brushes.Red, 200, 0, 100, 200)
         'g.DrawLine(blackPen, 0, 200, 300, 200)
         'g.DrawLine(blackPen, 300, 200, 300, 0)
+
+        g.FillPie(Brushes.Green, 0, 0, 400, 400, 270, 180)
     End Sub
 End Class

@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.exe.config
+C:\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.exe
+C:\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.pdb
+C:\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.xml
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.Form1.resources
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.Resources.resources
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.exe
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.xml
+C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.pdb
