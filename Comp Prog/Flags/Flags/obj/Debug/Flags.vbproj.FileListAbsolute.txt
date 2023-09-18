@@ -10,3 +10,15 @@ C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.CoreCompileInputs.cac
 C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.exe
 C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.xml
 C:\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.pdb
+H:\skool\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.exe.config
+H:\skool\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.exe
+H:\skool\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.pdb
+H:\skool\code-class\Comp Prog\Flags\Flags\bin\Debug\Flags.xml
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.AssemblyReference.cache
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.Form1.resources
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.Resources.resources
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.GenerateResource.cache
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.vbproj.CoreCompileInputs.cache
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.exe
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.xml
+H:\skool\code-class\Comp Prog\Flags\Flags\obj\Debug\Flags.pdb

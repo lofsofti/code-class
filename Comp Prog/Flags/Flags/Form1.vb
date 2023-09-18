@@ -39,7 +39,11 @@
         g.FillRectangle(Brushes.White, 600, 200, 300, 200)
         g.FillPie(Brushes.White, 700, 245, 100, 100, 270, 180)
         g.FillPie(Brushes.Black, 700, 245, 100, 100, 90, 180)
-
+        g.DrawEllipse(blackPen, 700, 245, 100, 100)
+        g.FillEllipse(Brushes.White, 726, 246, 50, 51)
+        g.FillEllipse(Brushes.Black, 726, 293, 50, 51)
+        g.FillEllipse(Brushes.Black, 740, 263, 17, 17)
+        g.FillEllipse(Brushes.White, 741, 309, 17, 17)
 
         'Flag Boxes
         g.DrawLine(blackPen, 0, 200, 900, 200)
