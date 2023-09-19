@@ -69,6 +69,9 @@
         g.FillRectangle(Brushes.Red, 300, 533, 300, 67)
         g.FillEllipse(Brushes.White, 390, 440, 125, 125)
         g.DrawEllipse(blacke, 390, 440, 125, 125)
+        g.DrawLine(blacke, 453, 440, 453, 562)
+        g.DrawLine(blacke, 453, 510, 500, 540)
+        g.DrawLine(blacke, 453, 510, 400, 540)
 
         'Flag Boxes
         g.DrawLine(blackPen, 0, 200, 900, 200)
