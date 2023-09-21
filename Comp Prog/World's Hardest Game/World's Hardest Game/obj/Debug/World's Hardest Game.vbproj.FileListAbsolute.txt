@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World's Hardest Game.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World_s_Hardest_Game.Form1.resources
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World_s_Hardest_Game.Resources.resources
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World's Hardest Game.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World's Hardest Game.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\bin\Debug\World's Hardest Game.exe.config
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\bin\Debug\World's Hardest Game.exe
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\bin\Debug\World's Hardest Game.pdb
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\bin\Debug\World's Hardest Game.xml
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World's Hardest Game.exe
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World's Hardest Game.xml
+C:\code-class\Comp Prog\World's Hardest Game\World's Hardest Game\obj\Debug\World's Hardest Game.pdb
