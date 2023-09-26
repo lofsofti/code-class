@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\Poker\Poker\bin\Debug\Poker.exe.config
+C:\code-class\Comp Prog\Poker\Poker\bin\Debug\Poker.exe
+C:\code-class\Comp Prog\Poker\Poker\bin\Debug\Poker.pdb
+C:\code-class\Comp Prog\Poker\Poker\bin\Debug\Poker.xml
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.Form1.resources
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.Resources.resources
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.exe
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.xml
+C:\code-class\Comp Prog\Poker\Poker\obj\Debug\Poker.pdb

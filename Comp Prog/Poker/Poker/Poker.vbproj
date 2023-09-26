@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FD5E854-2B39-48DD-890F-677C74DDE194}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Poker.My.MyApplication</StartupObject>
+    <RootNamespace>Poker</RootNamespace>
+    <AssemblyName>Poker</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Poker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Poker.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\10c.png" />
+    <Content Include="bin\Debug\10d.png" />
+    <Content Include="bin\Debug\10h.png" />
+    <Content Include="bin\Debug\10s.png" />
+    <Content Include="bin\Debug\2c.png" />
+    <Content Include="bin\Debug\2d.png" />
+    <Content Include="bin\Debug\2h.png" />
+    <Content Include="bin\Debug\2s.png" />
+    <Content Include="bin\Debug\3c.png" />
+    <Content Include="bin\Debug\3d.png" />
+    <Content Include="bin\Debug\3h.png" />
+    <Content Include="bin\Debug\3s.png" />
+    <Content Include="bin\Debug\4c.png" />
+    <Content Include="bin\Debug\4d.png" />
+    <Content Include="bin\Debug\4h.png" />
+    <Content Include="bin\Debug\4s.png" />
+    <Content Include="bin\Debug\5c.png" />
+    <Content Include="bin\Debug\5d.png" />
+    <Content Include="bin\Debug\5h.png" />
+    <Content Include="bin\Debug\5s.png" />
+    <Content Include="bin\Debug\6c.png" />
+    <Content Include="bin\Debug\6d.png" />
+    <Content Include="bin\Debug\6h.png" />
+    <Content Include="bin\Debug\6s.png" />
+    <Content Include="bin\Debug\7c.png" />
+    <Content Include="bin\Debug\7d.png" />
+    <Content Include="bin\Debug\7h.png" />
+    <Content Include="bin\Debug\7s.png" />
+    <Content Include="bin\Debug\8c.png" />
+    <Content Include="bin\Debug\8d.png" />
+    <Content Include="bin\Debug\8h.png" />
+    <Content Include="bin\Debug\8s.png" />
+    <Content Include="bin\Debug\9c.png" />
+    <Content Include="bin\Debug\9d.png" />
+    <Content Include="bin\Debug\9h.png" />
+    <Content Include="bin\Debug\9s.png" />
+    <Content Include="bin\Debug\ac.png" />
+    <Content Include="bin\Debug\ad.png" />
+    <Content Include="bin\Debug\ah.png" />
+    <Content Include="bin\Debug\as.png" />
+    <Content Include="bin\Debug\blackjoker.png" />
+    <Content Include="bin\Debug\blueback.png" />
+    <Content Include="bin\Debug\fancyblueback.png" />
+    <Content Include="bin\Debug\fancyredback.png" />
+    <Content Include="bin\Debug\jc.png" />
+    <Content Include="bin\Debug\jd.png" />
+    <Content Include="bin\Debug\jh.png" />
+    <Content Include="bin\Debug\joker.png" />
+    <Content Include="bin\Debug\js.png" />
+    <Content Include="bin\Debug\kc.png" />
+    <Content Include="bin\Debug\kd.png" />
+    <Content Include="bin\Debug\kh.png" />
+    <Content Include="bin\Debug\ks.png" />
+    <Content Include="bin\Debug\qc.png" />
+    <Content Include="bin\Debug\qd.png" />
+    <Content Include="bin\Debug\qh.png" />
+    <Content Include="bin\Debug\qs.png" />
+    <Content Include="bin\Debug\redback.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
