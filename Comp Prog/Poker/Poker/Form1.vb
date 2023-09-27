@@ -2,12 +2,24 @@
     Dim c1, c2, c3, c4, c5 As Integer
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Randomize()
+redeal:
+        ' Randomize()
         c1 = Int(Rnd() * 52) + 1
         c2 = Int(Rnd() * 52) + 1
         c3 = Int(Rnd() * 52) + 1
         c4 = Int(Rnd() * 52) + 1
         c5 = Int(Rnd() * 52) + 1
+
+        If c1 = c2 Then GoTo redeal
+        If c1 = c3 Then GoTo redeal
+        If c1 = c4 Then GoTo redeal
+        If c1 = c5 Then GoTo redeal
+        If c2 = c3 Then GoTo redeal
+        If c2 = c4 Then GoTo redeal
+        If c2 = c5 Then GoTo redeal
+        If c3 = c4 Then GoTo redeal
+        If c3 = c5 Then GoTo redeal
+        If c4 = c5 Then GoTo redeal
 
         showCard1()
         showCard2()
