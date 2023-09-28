@@ -1,9 +1,9 @@
 ﻿Public Class Form1
     Dim c1, c2, c3, c4, c5 As Integer
-
+    Dim pairs As Integer
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 redeal:
-        ' Randomize()
+        Randomize()
         c1 = Int(Rnd() * 52) + 1
         c2 = Int(Rnd() * 52) + 1
         c3 = Int(Rnd() * 52) + 1
@@ -21,11 +21,50 @@ redeal:
         If c3 = c5 Then GoTo redeal
         If c4 = c5 Then GoTo redeal
 
+        c1 = 1
+        c2 = 14
+        c3 = 27
+        c4 = 40
+        c5 =
         showCard1()
         showCard2()
         showCard3()
         showCard4()
         showCard5()
+
+        calculateHand()
+    End Sub
+
+    Private Sub RedToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RedToolStripMenuItem.Click
+        card1.Image = Image.FromFile("redback.png")
+        card2.Image = Image.FromFile("redback.png")
+        card3.Image = Image.FromFile("redback.png")
+        card4.Image = Image.FromFile("redback.png")
+        card5.Image = Image.FromFile("redback.png")
+    End Sub
+
+    Private Sub BlueToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BlueToolStripMenuItem.Click
+        card1.Image = Image.FromFile("blueback.png")
+        card2.Image = Image.FromFile("blueback.png")
+        card3.Image = Image.FromFile("blueback.png")
+        card4.Image = Image.FromFile("blueback.png")
+        card5.Image = Image.FromFile("blueback.png")
+    End Sub
+
+    Private Sub FancyRedToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FancyRedToolStripMenuItem.Click
+        card1.Image = Image.FromFile("fancyredback.png")
+        card2.Image = Image.FromFile("fancyredback.png")
+        card3.Image = Image.FromFile("fancyredback.png")
+        card4.Image = Image.FromFile("fancyredback.png")
+        card5.Image = Image.FromFile("fancyredback.png")
+    End Sub
+
+    Private Sub FancyBlueToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FancyBlueToolStripMenuItem.Click
+        card1.Image = Image.FromFile("fancyblueback.png")
+        card2.Image = Image.FromFile("fancyblueback.png")
+        card3.Image = Image.FromFile("fancyblueback.png")
+        card4.Image = Image.FromFile("fancyblueback.png")
+        card5.Image = Image.FromFile("fancyblueback.png")
     End Sub
 
     Public Sub showCard1()
@@ -336,5 +375,27 @@ redeal:
         If c5 = 50 Then card5.Image = Image.FromFile("js.png")
         If c5 = 51 Then card5.Image = Image.FromFile("qs.png")
         If c5 = 52 Then card5.Image = Image.FromFile("ks.png")
+    End Sub
+
+    Public Sub calculateHand()
+        pairs = 0
+        If c1 Mod 13 = c2 Mod 13 Then pairs += 1
+        If c1 Mod 13 = c3 Mod 13 Then pairs += 1
+        If c1 Mod 13 = c4 Mod 13 Then pairs += 1
+        If c1 Mod 13 = c5 Mod 13 Then pairs += 1
+        If c2 Mod 13 = c3 Mod 13 Then pairs += 1
+        If c2 Mod 13 = c4 Mod 13 Then pairs += 1
+        If c2 Mod 13 = c5 Mod 13 Then pairs += 1
+        If c3 Mod 13 = c4 Mod 13 Then pairs += 1
+        If c3 Mod 13 = c5 Mod 13 Then pairs += 1
+        If c4 Mod 13 = c5 Mod 13 Then pairs += 1
+
+        If pairs = 0 Then handRank.Text = "High Card"
+        If pairs = 1 Then handRank.Text = "One Pair"
+        If pairs = 2 Then handRank.Text = "Two Pair"
+        If pairs = 3 Then handRank.Text = "3 of a kind"
+        If pairs = 4 Then handRank.Text = "4 of a kind"
+
+        'If c1 < 14 And c2 < 14 And c3 < 14 And c4 < 14 And c5 < 14 Then handRank.Text = "Flush"
     End Sub
 End Class
