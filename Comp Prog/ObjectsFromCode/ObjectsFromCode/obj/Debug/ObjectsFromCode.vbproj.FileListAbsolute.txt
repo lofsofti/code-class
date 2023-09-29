@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\bin\Debug\ObjectsFromCode.exe.config
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\bin\Debug\ObjectsFromCode.exe
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\bin\Debug\ObjectsFromCode.pdb
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\bin\Debug\ObjectsFromCode.xml
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.Form1.resources
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.Resources.resources
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.exe
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.xml
+C:\code-class\Comp Prog\ObjectsFromCode\ObjectsFromCode\obj\Debug\ObjectsFromCode.pdb

@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.Form1.resources
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.Resources.resources
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\bin\Debug\GoofyDixonWord.exe.config
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\bin\Debug\GoofyDixonWord.exe
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\bin\Debug\GoofyDixonWord.pdb
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\bin\Debug\GoofyDixonWord.xml
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.exe
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.xml
+C:\code-class\Comp Prog\GoofyDixonWord\GoofyDixonWord\obj\Debug\GoofyDixonWord.pdb
