@@ -3,12 +3,17 @@
 Public Class Form1
     Dim c1, c2, c3, c4, c5, c6, c7, c8, c9 As Label
     Dim a1, a2, a3, a4, a5, a6 As Label
-    Dim b1, b2, b3, b4, b5 b6 As Label
+    Dim b1, b2, b3, b4, b5, b6 As Label
+    Dim l1, l2 As Label
+    Dim e1, e2, e3, e4 As Label
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Cable
-        Me.Size = New Size(316, 239)
+        Me.Size = New Size(366, 239)
         LetterC()
         LetterA()
+        LetterB()
+        LetterL()
+        LetterE()
     End Sub
     Public Sub LetterC()
         c1 = New Label
@@ -134,24 +139,72 @@ Public Class Form1
         b5.AutoSize = False
         b6.AutoSize = False
 
-        b1.Size = New Size(10, 40)
-        b1.Location = New Point(90, 110)
-        b2.Size = New Size(10, 40)
-        b2.Location = New Point(95, 70)
-        b3.Size = New Size(40, 10)
-        b3.Location = New Point(105, 60)
-        b4.Size = New Size(10, 40)
-        b4.Location = New Point(145, 70)
-        b5.Size = New Size(10, 40)
-        b5.Location = New Point(150, 110)
-        b6.Size = New Size(50, 10)
-        b6.Location = New Point(100, 110)
+        b1.Size = New Size(10, 90)
+        b1.Location = New Point(170, 60)
+        b2.Size = New Size(30, 10)
+        b2.Location = New Point(180, 60)
+        b3.Size = New Size(10, 30)
+        b3.Location = New Point(210, 70)
+        b4.Size = New Size(30, 10)
+        b4.Location = New Point(180, 100)
+        b5.Size = New Size(10, 30)
+        b5.Location = New Point(210, 110)
+        b6.Size = New Size(30, 10)
+        b6.Location = New Point(180, 140)
 
-        Controls.Add(a1)
-        Controls.Add(a2)
-        Controls.Add(a3)
-        Controls.Add(a4)
-        Controls.Add(a5)
-        Controls.Add(a6)
+        Controls.Add(b1)
+        Controls.Add(b2)
+        Controls.Add(b3)
+        Controls.Add(b4)
+        Controls.Add(b5)
+        Controls.Add(b6)
+    End Sub
+    Public Sub LetterL()
+        l1 = New Label
+        l2 = New Label
+
+        l1.BackColor = Color.DarkSlateGray
+        l2.BackColor = Color.DarkSlateGray
+
+        l1.AutoSize = False
+        l2.AutoSize = False
+
+        l1.Size = New Size(10, 90)
+        l1.Location = New Point(230, 60)
+        l2.Size = New Size(30, 10)
+        l2.Location = New Point(240, 140)
+
+        Controls.Add(l1)
+        Controls.Add(l2)
+    End Sub
+    Public Sub LetterE()
+        e1 = New Label
+        e2 = New Label
+        e3 = New Label
+        e4 = New Label
+
+        e1.BackColor = Color.DarkSlateGray
+        e2.BackColor = Color.DarkSlateGray
+        e3.BackColor = Color.DarkSlateGray
+        e4.BackColor = Color.DarkSlateGray
+
+        e1.AutoSize = False
+        e2.AutoSize = False
+        e3.AutoSize = False
+        e4.AutoSize = False
+
+        e1.Size = New Size(10, 90)
+        e1.Location = New Point(280, 60)
+        e2.Size = New Size(40, 10)
+        e2.Location = New Point(290, 60)
+        e3.Size = New Size(30, 10)
+        e3.Location = New Point(290, 100)
+        e4.Size = New Size(40, 10)
+        e4.Location = New Point(290, 140)
+
+        Controls.Add(e1)
+        Controls.Add(e2)
+        Controls.Add(e3)
+        Controls.Add(e4)
     End Sub
 End Class
