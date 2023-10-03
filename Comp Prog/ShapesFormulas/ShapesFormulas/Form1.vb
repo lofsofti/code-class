@@ -8,14 +8,14 @@
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         triangleCalc()
     End Sub
-    Private Sub CalculationsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculationsToolStripMenuItem.Click
+    Private Sub TriangleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculationsToolStripMenuItem.Click
         lblShape.Text = "Triangle"
         lblA.Visible = True
-        lblA.Text = "Side A length"
+        lblA.Text = "Side A length:"
         lblB.Visible = True
-        lblB.Text = "Side B length"
+        lblB.Text = "Side B length:"
         lblC.Visible = True
-        lblC.Text = "Side C length"
+        lblC.Text = "Side C length:"
         tbA.Visible = True
         tbB.Visible = True
         tbC.Visible = True
@@ -28,12 +28,26 @@
 
     Private Sub RectangleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RectangleToolStripMenuItem.Click
         lblShape.Text = "Rectangle"
+        lblA.Visible = True
         lblA.Text = "Length"
+        lblb.Visible = True
         lblB.Text = "Width"
         lblC.Visible = False
+        tbA.Visible = True
+        tbB.Visible = True
         tbC.Visible = False
 
     End Sub
+
+     Private Sub CircleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RectangleToolStripMenuItem.Click
+        lblShape.Text = "Circle"
+        lblA.Visible = False
+        lblB.Text = "Radius:"
+        lblC.Visible = False
+        tbA.Visible = False
+        tbB.Visible = True
+        tbC.Visible = False
+        End Sub
     Public Sub triangleCalc()
         a = tbA.Text
         b = tbB.Text
