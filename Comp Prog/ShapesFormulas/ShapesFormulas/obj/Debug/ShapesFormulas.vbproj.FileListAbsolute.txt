@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.exe.config
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.exe
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.pdb
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.xml
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.Form1.resources
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.Resources.resources
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.exe
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.xml
+C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.pdb
