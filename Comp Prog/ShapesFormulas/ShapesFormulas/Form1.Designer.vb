@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblShape = New System.Windows.Forms.Label()
-        Me.btnCalc = New System.Windows.Forms.Button()
+        Me.btnCalcTriangle = New System.Windows.Forms.Button()
         Me.tbA = New System.Windows.Forms.TextBox()
         Me.tbB = New System.Windows.Forms.TextBox()
         Me.tbC = New System.Windows.Forms.TextBox()
@@ -41,27 +41,31 @@ Partial Class Form1
         Me.lblB = New System.Windows.Forms.Label()
         Me.lblC = New System.Windows.Forms.Label()
         Me.lblAns3 = New System.Windows.Forms.Label()
+        Me.btnCalcRect = New System.Windows.Forms.Button()
+        Me.btnCircleCalc = New System.Windows.Forms.Button()
+        Me.btnCalcPythagorean = New System.Windows.Forms.Button()
+        Me.btnCalcSphere = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'lblShape
         '
-        Me.lblShape.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblShape.Location = New System.Drawing.Point(93, 72)
+        Me.lblShape.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblShape.Location = New System.Drawing.Point(93, 60)
         Me.lblShape.Name = "lblShape"
-        Me.lblShape.Size = New System.Drawing.Size(181, 43)
+        Me.lblShape.Size = New System.Drawing.Size(181, 72)
         Me.lblShape.TabIndex = 0
-        Me.lblShape.Text = "Traingle"
+        Me.lblShape.Text = "Choose a Shape"
         Me.lblShape.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'btnCalc
+        'btnCalcTriangle
         '
-        Me.btnCalc.Location = New System.Drawing.Point(145, 289)
-        Me.btnCalc.Name = "btnCalc"
-        Me.btnCalc.Size = New System.Drawing.Size(75, 23)
-        Me.btnCalc.TabIndex = 3
-        Me.btnCalc.Text = "Calculate"
-        Me.btnCalc.UseVisualStyleBackColor = True
+        Me.btnCalcTriangle.Location = New System.Drawing.Point(149, 289)
+        Me.btnCalcTriangle.Name = "btnCalcTriangle"
+        Me.btnCalcTriangle.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcTriangle.TabIndex = 3
+        Me.btnCalcTriangle.Text = "Calculate"
+        Me.btnCalcTriangle.UseVisualStyleBackColor = True
         '
         'tbA
         '
@@ -95,7 +99,7 @@ Partial Class Form1
         Me.lblAns1.Name = "lblAns1"
         Me.lblAns1.Size = New System.Drawing.Size(199, 34)
         Me.lblAns1.TabIndex = 7
-        Me.lblAns1.Text = "Perimeter"
+        Me.lblAns1.Text = "Area"
         Me.lblAns1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblAns2
@@ -106,7 +110,7 @@ Partial Class Form1
         Me.lblAns2.Name = "lblAns2"
         Me.lblAns2.Size = New System.Drawing.Size(199, 34)
         Me.lblAns2.TabIndex = 8
-        Me.lblAns2.Text = "Area"
+        Me.lblAns2.Text = "Perimeter"
         Me.lblAns2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MenuStrip1
@@ -128,19 +132,19 @@ Partial Class Form1
         'CalculationsToolStripMenuItem
         '
         Me.CalculationsToolStripMenuItem.Name = "CalculationsToolStripMenuItem"
-        Me.CalculationsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CalculationsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CalculationsToolStripMenuItem.Text = "Triangle"
         '
         'RectangleToolStripMenuItem
         '
         Me.RectangleToolStripMenuItem.Name = "RectangleToolStripMenuItem"
-        Me.RectangleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RectangleToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.RectangleToolStripMenuItem.Text = "Rectangle"
         '
         'CircleToolStripMenuItem
         '
         Me.CircleToolStripMenuItem.Name = "CircleToolStripMenuItem"
-        Me.CircleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CircleToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CircleToolStripMenuItem.Text = "Circle"
         '
         'PythaToolStripMenuItem
@@ -158,7 +162,7 @@ Partial Class Form1
         'PolygonToolStripMenuItem
         '
         Me.PolygonToolStripMenuItem.Name = "PolygonToolStripMenuItem"
-        Me.PolygonToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PolygonToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.PolygonToolStripMenuItem.Text = "Polygon"
         '
         'lblA
@@ -200,13 +204,52 @@ Partial Class Form1
         Me.lblAns3.Size = New System.Drawing.Size(199, 34)
         Me.lblAns3.TabIndex = 13
         Me.lblAns3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblAns3.Visible = False
+        '
+        'btnCalcRect
+        '
+        Me.btnCalcRect.Location = New System.Drawing.Point(149, 288)
+        Me.btnCalcRect.Name = "btnCalcRect"
+        Me.btnCalcRect.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcRect.TabIndex = 14
+        Me.btnCalcRect.Text = "Calculate"
+        Me.btnCalcRect.UseVisualStyleBackColor = True
+        '
+        'btnCircleCalc
+        '
+        Me.btnCircleCalc.Location = New System.Drawing.Point(149, 288)
+        Me.btnCircleCalc.Name = "btnCircleCalc"
+        Me.btnCircleCalc.Size = New System.Drawing.Size(75, 23)
+        Me.btnCircleCalc.TabIndex = 15
+        Me.btnCircleCalc.Text = "Calculate"
+        Me.btnCircleCalc.UseVisualStyleBackColor = True
+        '
+        'btnCalcPythagorean
+        '
+        Me.btnCalcPythagorean.Location = New System.Drawing.Point(149, 289)
+        Me.btnCalcPythagorean.Name = "btnCalcPythagorean"
+        Me.btnCalcPythagorean.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcPythagorean.TabIndex = 16
+        Me.btnCalcPythagorean.Text = "Calculate"
+        Me.btnCalcPythagorean.UseVisualStyleBackColor = True
+        '
+        'btnCalcSphere
+        '
+        Me.btnCalcSphere.Location = New System.Drawing.Point(149, 288)
+        Me.btnCalcSphere.Name = "btnCalcSphere"
+        Me.btnCalcSphere.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcSphere.TabIndex = 17
+        Me.btnCalcSphere.Text = "Calculate"
+        Me.btnCalcSphere.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(386, 487)
+        Me.Controls.Add(Me.btnCalcSphere)
+        Me.Controls.Add(Me.btnCalcPythagorean)
+        Me.Controls.Add(Me.btnCircleCalc)
+        Me.Controls.Add(Me.btnCalcRect)
         Me.Controls.Add(Me.lblAns3)
         Me.Controls.Add(Me.lblC)
         Me.Controls.Add(Me.lblB)
@@ -216,7 +259,7 @@ Partial Class Form1
         Me.Controls.Add(Me.tbC)
         Me.Controls.Add(Me.tbB)
         Me.Controls.Add(Me.tbA)
-        Me.Controls.Add(Me.btnCalc)
+        Me.Controls.Add(Me.btnCalcTriangle)
         Me.Controls.Add(Me.lblShape)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -232,7 +275,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents lblShape As Label
-    Friend WithEvents btnCalc As Button
+    Friend WithEvents btnCalcTriangle As Button
     Friend WithEvents tbA As TextBox
     Friend WithEvents tbB As TextBox
     Friend WithEvents tbC As TextBox
@@ -250,4 +293,8 @@ Partial Class Form1
     Friend WithEvents lblB As Label
     Friend WithEvents lblC As Label
     Friend WithEvents lblAns3 As Label
+    Friend WithEvents btnCalcRect As Button
+    Friend WithEvents btnCircleCalc As Button
+    Friend WithEvents btnCalcPythagorean As Button
+    Friend WithEvents btnCalcSphere As Button
 End Class
