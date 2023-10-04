@@ -10,3 +10,15 @@ C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.v
 C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.exe
 C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.xml
 C:\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.pdb
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.exe.config
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.exe
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.pdb
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\bin\Debug\ShapesFormulas.xml
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.vbproj.AssemblyReference.cache
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.Form1.resources
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.Resources.resources
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.vbproj.GenerateResource.cache
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.vbproj.CoreCompileInputs.cache
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.exe
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.xml
+H:\skool\code-class\Comp Prog\ShapesFormulas\ShapesFormulas\obj\Debug\ShapesFormulas.pdb

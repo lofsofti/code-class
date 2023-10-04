@@ -5,6 +5,16 @@
 
     Dim L, W As Double 'answer for rect
 
+    Private Sub CircleToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles CircleToolStripMenuItem.Click
+        lblShape.Text = "Circle"
+        lblA.Visible = False
+        lblB.Text = "Radius:"
+        lblC.Visible = False
+        tbA.Visible = False
+        tbB.Visible = True
+        tbC.Visible = False
+    End Sub
+
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         triangleCalc()
     End Sub
@@ -36,18 +46,9 @@
         tbA.Visible = True
         tbB.Visible = True
         tbC.Visible = False
+        lblAns1.Visible = True
 
     End Sub
-
-     Private Sub CircleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RectangleToolStripMenuItem.Click
-        lblShape.Text = "Circle"
-        lblA.Visible = False
-        lblB.Text = "Radius:"
-        lblC.Visible = False
-        tbA.Visible = False
-        tbB.Visible = True
-        tbC.Visible = False
-        End Sub
     Public Sub triangleCalc()
         a = tbA.Text
         b = tbB.Text
