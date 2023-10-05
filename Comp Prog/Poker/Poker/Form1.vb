@@ -21,13 +21,6 @@ redeal:
         If c3 = c5 Then GoTo redeal
         If c4 = c5 Then GoTo redeal
 
-        c1 = 14
-        c2 = 16
-        c3 = 20
-        c4 = 22
-        c5 = 26
-
-
         showCard1()
         showCard2()
         showCard3()
@@ -392,13 +385,18 @@ redeal:
         If c3 Mod 13 = c5 Mod 13 Then pairs += 1
         If c4 Mod 13 = c5 Mod 13 Then pairs += 1
 
+        'high and pairs and full house
         If pairs = 0 Then handRank.Text = "High Card"
         If pairs = 1 Then handRank.Text = "One Pair"
         If pairs = 2 Then handRank.Text = "Two Pair"
         If pairs = 3 Then handRank.Text = "3 of a kind"
         If pairs = 6 Then handRank.Text = "4 of a kind"
         If pairs = 4 Then handRank.Text = "Full House"
+
+        'flushes
         If c1 < 14 And c2 < 14 And c3 < 14 And c4 < 14 And c5 < 14 Then handRank.Text = "Flush"
         If c1 < 27 And c1 > 13 And c2 < 27 And c2 > 13 And c3 < 27 And c3 > 13 And c4 < 27 And c4 > 13 And c5 < 27 And c5 > 13 Then handRank.Text = "Flush"
+        If c1 < 40 And c1 > 26 And c2 < 40 And c2 > 26 And c3 < 40 And c3 > 26 And c4 < 40 And c4 > 26 And c5 < 40 And c5 > 26 Then handRank.Text = "Flush"
+        If c1 < 53 And c1 > 39 And c2 < 53 And c2 > 39 And c3 < 53 And c3 > 39 And c4 < 53 And c4 > 39 And c5 < 53 And c5 > 39 Then handRank.Text = "Flush"
     End Sub
 End Class
