@@ -56,7 +56,7 @@ Partial Class Form1
         Me.lblShape.Name = "lblShape"
         Me.lblShape.Size = New System.Drawing.Size(181, 72)
         Me.lblShape.TabIndex = 0
-        Me.lblShape.Text = "Choose a Shape"
+        Me.lblShape.Text = "Choose a Shape(top left)"
         Me.lblShape.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnCalcTriangle
@@ -133,37 +133,37 @@ Partial Class Form1
         'CalculationsToolStripMenuItem
         '
         Me.CalculationsToolStripMenuItem.Name = "CalculationsToolStripMenuItem"
-        Me.CalculationsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CalculationsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CalculationsToolStripMenuItem.Text = "Triangle"
         '
         'RectangleToolStripMenuItem
         '
         Me.RectangleToolStripMenuItem.Name = "RectangleToolStripMenuItem"
-        Me.RectangleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RectangleToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.RectangleToolStripMenuItem.Text = "Rectangle"
         '
         'CircleToolStripMenuItem
         '
         Me.CircleToolStripMenuItem.Name = "CircleToolStripMenuItem"
-        Me.CircleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CircleToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CircleToolStripMenuItem.Text = "Circle"
         '
         'PythaToolStripMenuItem
         '
         Me.PythaToolStripMenuItem.Name = "PythaToolStripMenuItem"
-        Me.PythaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PythaToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.PythaToolStripMenuItem.Text = "Pythagorean"
         '
         'SphereToolStripMenuItem
         '
         Me.SphereToolStripMenuItem.Name = "SphereToolStripMenuItem"
-        Me.SphereToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SphereToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.SphereToolStripMenuItem.Text = "Sphere"
         '
         'PolygonToolStripMenuItem
         '
         Me.PolygonToolStripMenuItem.Name = "PolygonToolStripMenuItem"
-        Me.PolygonToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PolygonToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.PolygonToolStripMenuItem.Text = "Polygon"
         '
         'lblA

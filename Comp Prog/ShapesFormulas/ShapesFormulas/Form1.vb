@@ -12,7 +12,7 @@
     Dim sidenum, sideL As Double 'poly gona info
     Dim areaP, diagonalnum, apothem As Double 'polygona answera
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        lblShape.Text = "Choose a Shape Formula"
+        lblShape.Text = "Choose a Shape(top left)"
         lblA.Visible = False
         lblA.Text = ""
         lblB.Visible = False
@@ -213,8 +213,7 @@
         r = tbB.Text
 
         circumferenceC = 2 * Math.PI * r
-        ' fixxxxxxxxxxxxxxxxxxxxxxxx area
-        areaC = Math.PI * Math.Sqrt(r)
+        areaC = Math.PI * r * r
 
         lblAns1.Text = "Area = " & Math.Round(areaC, 2)
         lblAns2.Text = "Circumference = " & Math.Round(circumferenceC, 2)
@@ -222,16 +221,16 @@
     Public Sub pythagoreanCalc()
         sideA = tbA.Text
         sideB = tbB.Text
-        ' fixxxxxxxxxxxxxxxxxx hypot
-        hypot = Math.Sqrt(Math.Sqrt(sideA) * Math.Sqrt(sideB))
+
+        hypot = Math.Sqrt((sideA * sideA) + (sideB * sideB))
 
         lblAns2.Text = "Hypotenuse = " & Math.Round(hypot, 2)
     End Sub
     Public Sub sphereCalc()
         sR = tbB.Text
-        'fixxxxxxxxxxx surface area
+
         v = 4 / 3 * Math.PI * Math.Pow(sR, 3)
-        surfA = 4 * Math.PI * Math.Sqrt(sR)
+        surfA = 4 * Math.PI * (sR * sR)
 
         lblAns1.Text = "Volume = " & Math.Round(v, 2)
         lblAns2.Text = "Surface Area = " & Math.Round(surfA, 2)
