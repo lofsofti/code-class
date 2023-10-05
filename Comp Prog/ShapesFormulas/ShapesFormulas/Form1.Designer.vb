@@ -45,6 +45,7 @@ Partial Class Form1
         Me.btnCircleCalc = New System.Windows.Forms.Button()
         Me.btnCalcPythagorean = New System.Windows.Forms.Button()
         Me.btnCalcSphere = New System.Windows.Forms.Button()
+        Me.btnCalcPolygon = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -94,7 +95,7 @@ Partial Class Form1
         'lblAns1
         '
         Me.lblAns1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblAns1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAns1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAns1.Location = New System.Drawing.Point(93, 332)
         Me.lblAns1.Name = "lblAns1"
         Me.lblAns1.Size = New System.Drawing.Size(199, 34)
@@ -105,7 +106,7 @@ Partial Class Form1
         'lblAns2
         '
         Me.lblAns2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblAns2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAns2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAns2.Location = New System.Drawing.Point(93, 377)
         Me.lblAns2.Name = "lblAns2"
         Me.lblAns2.Size = New System.Drawing.Size(199, 34)
@@ -132,19 +133,19 @@ Partial Class Form1
         'CalculationsToolStripMenuItem
         '
         Me.CalculationsToolStripMenuItem.Name = "CalculationsToolStripMenuItem"
-        Me.CalculationsToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.CalculationsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CalculationsToolStripMenuItem.Text = "Triangle"
         '
         'RectangleToolStripMenuItem
         '
         Me.RectangleToolStripMenuItem.Name = "RectangleToolStripMenuItem"
-        Me.RectangleToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.RectangleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RectangleToolStripMenuItem.Text = "Rectangle"
         '
         'CircleToolStripMenuItem
         '
         Me.CircleToolStripMenuItem.Name = "CircleToolStripMenuItem"
-        Me.CircleToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.CircleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CircleToolStripMenuItem.Text = "Circle"
         '
         'PythaToolStripMenuItem
@@ -162,7 +163,7 @@ Partial Class Form1
         'PolygonToolStripMenuItem
         '
         Me.PolygonToolStripMenuItem.Name = "PolygonToolStripMenuItem"
-        Me.PolygonToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
+        Me.PolygonToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PolygonToolStripMenuItem.Text = "Polygon"
         '
         'lblA
@@ -198,7 +199,7 @@ Partial Class Form1
         'lblAns3
         '
         Me.lblAns3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblAns3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAns3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAns3.Location = New System.Drawing.Point(93, 421)
         Me.lblAns3.Name = "lblAns3"
         Me.lblAns3.Size = New System.Drawing.Size(199, 34)
@@ -241,11 +242,21 @@ Partial Class Form1
         Me.btnCalcSphere.Text = "Calculate"
         Me.btnCalcSphere.UseVisualStyleBackColor = True
         '
+        'btnCalcPolygon
+        '
+        Me.btnCalcPolygon.Location = New System.Drawing.Point(149, 288)
+        Me.btnCalcPolygon.Name = "btnCalcPolygon"
+        Me.btnCalcPolygon.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcPolygon.TabIndex = 18
+        Me.btnCalcPolygon.Text = "Calculate"
+        Me.btnCalcPolygon.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(386, 487)
+        Me.Controls.Add(Me.btnCalcPolygon)
         Me.Controls.Add(Me.btnCalcSphere)
         Me.Controls.Add(Me.btnCalcPythagorean)
         Me.Controls.Add(Me.btnCircleCalc)
@@ -297,4 +308,5 @@ Partial Class Form1
     Friend WithEvents btnCircleCalc As Button
     Friend WithEvents btnCalcPythagorean As Button
     Friend WithEvents btnCalcSphere As Button
+    Friend WithEvents btnCalcPolygon As Button
 End Class
