@@ -54,123 +54,135 @@ Partial Class Form1
         '
         'btnJan
         '
+        Me.btnJan.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnJan.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnJan.Location = New System.Drawing.Point(12, 119)
         Me.btnJan.Name = "btnJan"
         Me.btnJan.Size = New System.Drawing.Size(124, 39)
         Me.btnJan.TabIndex = 1
         Me.btnJan.Text = "January"
-        Me.btnJan.UseVisualStyleBackColor = True
+        Me.btnJan.UseVisualStyleBackColor = False
         '
         'btnFeb
         '
+        Me.btnFeb.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnFeb.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFeb.Location = New System.Drawing.Point(12, 164)
         Me.btnFeb.Name = "btnFeb"
         Me.btnFeb.Size = New System.Drawing.Size(124, 39)
         Me.btnFeb.TabIndex = 2
         Me.btnFeb.Text = "February"
-        Me.btnFeb.UseVisualStyleBackColor = True
+        Me.btnFeb.UseVisualStyleBackColor = False
         '
         'btnMar
         '
+        Me.btnMar.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnMar.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMar.Location = New System.Drawing.Point(12, 209)
         Me.btnMar.Name = "btnMar"
         Me.btnMar.Size = New System.Drawing.Size(124, 39)
         Me.btnMar.TabIndex = 3
         Me.btnMar.Text = "March"
-        Me.btnMar.UseVisualStyleBackColor = True
+        Me.btnMar.UseVisualStyleBackColor = False
         '
         'btnApr
         '
+        Me.btnApr.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnApr.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnApr.Location = New System.Drawing.Point(12, 254)
         Me.btnApr.Name = "btnApr"
         Me.btnApr.Size = New System.Drawing.Size(124, 39)
         Me.btnApr.TabIndex = 4
         Me.btnApr.Text = "April"
-        Me.btnApr.UseVisualStyleBackColor = True
+        Me.btnApr.UseVisualStyleBackColor = False
         '
         'btnMay
         '
+        Me.btnMay.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnMay.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMay.Location = New System.Drawing.Point(12, 299)
         Me.btnMay.Name = "btnMay"
         Me.btnMay.Size = New System.Drawing.Size(124, 39)
         Me.btnMay.TabIndex = 5
         Me.btnMay.Text = "May"
-        Me.btnMay.UseVisualStyleBackColor = True
+        Me.btnMay.UseVisualStyleBackColor = False
         '
         'btnJun
         '
+        Me.btnJun.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnJun.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnJun.Location = New System.Drawing.Point(12, 344)
         Me.btnJun.Name = "btnJun"
         Me.btnJun.Size = New System.Drawing.Size(124, 39)
         Me.btnJun.TabIndex = 6
         Me.btnJun.Text = "June"
-        Me.btnJun.UseVisualStyleBackColor = True
+        Me.btnJun.UseVisualStyleBackColor = False
         '
         'btnDec
         '
+        Me.btnDec.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnDec.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDec.Location = New System.Drawing.Point(681, 344)
         Me.btnDec.Name = "btnDec"
         Me.btnDec.Size = New System.Drawing.Size(124, 39)
         Me.btnDec.TabIndex = 12
         Me.btnDec.Text = "December"
-        Me.btnDec.UseVisualStyleBackColor = True
+        Me.btnDec.UseVisualStyleBackColor = False
         '
         'btnNov
         '
+        Me.btnNov.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnNov.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnNov.Location = New System.Drawing.Point(681, 299)
         Me.btnNov.Name = "btnNov"
         Me.btnNov.Size = New System.Drawing.Size(124, 39)
         Me.btnNov.TabIndex = 11
         Me.btnNov.Text = "November"
-        Me.btnNov.UseVisualStyleBackColor = True
+        Me.btnNov.UseVisualStyleBackColor = False
         '
         'btnOct
         '
+        Me.btnOct.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnOct.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnOct.Location = New System.Drawing.Point(681, 254)
         Me.btnOct.Name = "btnOct"
         Me.btnOct.Size = New System.Drawing.Size(124, 39)
         Me.btnOct.TabIndex = 10
         Me.btnOct.Text = "October"
-        Me.btnOct.UseVisualStyleBackColor = True
+        Me.btnOct.UseVisualStyleBackColor = False
         '
         'btnSept
         '
+        Me.btnSept.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnSept.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSept.Location = New System.Drawing.Point(681, 209)
         Me.btnSept.Name = "btnSept"
         Me.btnSept.Size = New System.Drawing.Size(124, 39)
         Me.btnSept.TabIndex = 9
         Me.btnSept.Text = "September"
-        Me.btnSept.UseVisualStyleBackColor = True
+        Me.btnSept.UseVisualStyleBackColor = False
         '
         'btnAug
         '
+        Me.btnAug.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnAug.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAug.Location = New System.Drawing.Point(681, 164)
         Me.btnAug.Name = "btnAug"
         Me.btnAug.Size = New System.Drawing.Size(124, 39)
         Me.btnAug.TabIndex = 8
         Me.btnAug.Text = "August"
-        Me.btnAug.UseVisualStyleBackColor = True
+        Me.btnAug.UseVisualStyleBackColor = False
         '
         'btnJul
         '
+        Me.btnJul.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnJul.Font = New System.Drawing.Font("Perpetua Titling MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnJul.Location = New System.Drawing.Point(681, 119)
         Me.btnJul.Name = "btnJul"
         Me.btnJul.Size = New System.Drawing.Size(124, 39)
         Me.btnJul.TabIndex = 7
         Me.btnJul.Text = "July"
-        Me.btnJul.UseVisualStyleBackColor = True
+        Me.btnJul.UseVisualStyleBackColor = False
         '
         'lblPpl
         '
@@ -207,6 +219,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(817, 530)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblDOB)

@@ -43,7 +43,7 @@
     Private Sub btnJun_Click(sender As Object, e As EventArgs) Handles btnJun.Click
         PictureBox1.Image = Image.FromFile("notchv2.png")
         lblPpl.Text = "Markus Perrson"
-        lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblPpl.Font = New Font("Perpetua Titling MT", 14, FontStyle.Regular)
         lblDOB.Text = "June 1st, 1979"
         lblDOB.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
     End Sub
@@ -59,7 +59,7 @@
     Private Sub btnAug_Click(sender As Object, e As EventArgs) Handles btnAug.Click
         PictureBox1.Image = Image.FromFile("mj.png")
         lblPpl.Text = "Michael Jackson"
-        lblPpl.Font = New Font("Perpetua Titling MT", 16, FontStyle.Regular)
+        lblPpl.Font = New Font("Perpetua Titling MT", 14, FontStyle.Regular)
         lblDOB.Text = "August 29th, 1958"
         lblDOB.Font = New Font("Perpetua Titling MT", 12, FontStyle.Regular)
     End Sub
