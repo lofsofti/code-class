@@ -55,7 +55,7 @@
         block(76).Location = New Point(400, 120)
         block(77).Location = New Point(400, 140)
         For x = 78 To 87
-            block(x).Location = New Point(400, 160 + (x - 78) * 20)
+            block(x).Location = New Point(400, 200 + (x - 78) * 20)
         Next
         'column 10
         For x = 88 To 92
@@ -75,6 +75,18 @@
             block(x).BorderStyle = BorderStyle.FixedSingle
             Controls.Add(block(x))
         Next
+        block(12).BackColor = Color.Yellow
+        block(13).BackColor = Color.Yellow
+        block(24).BackColor = Color.Yellow
+        block(25).BackColor = Color.Yellow
+        block(28).BackColor = Color.Red
+        block(29).BackColor = Color.Red
+        block(64).BackColor = Color.Yellow
+        block(65).BackColor = Color.Yellow
+        block(68).BackColor = Color.Red
+        block(69).BackColor = Color.Red
+        block(76).BackColor = Color.Yellow
+        block(77).BackColor = Color.Yellow
     End Sub
     Public Sub makeObjects()
         topWall = New PictureBox

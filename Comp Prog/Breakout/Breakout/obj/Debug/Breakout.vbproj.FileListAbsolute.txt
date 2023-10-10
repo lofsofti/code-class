@@ -10,3 +10,15 @@ C:\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.vbproj.CoreCompileI
 C:\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.exe
 C:\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.xml
 C:\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.pdb
+H:\skool\code-class\Comp Prog\Breakout\Breakout\bin\Debug\Breakout.exe.config
+H:\skool\code-class\Comp Prog\Breakout\Breakout\bin\Debug\Breakout.exe
+H:\skool\code-class\Comp Prog\Breakout\Breakout\bin\Debug\Breakout.pdb
+H:\skool\code-class\Comp Prog\Breakout\Breakout\bin\Debug\Breakout.xml
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.vbproj.AssemblyReference.cache
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.Form1.resources
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.Resources.resources
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.vbproj.GenerateResource.cache
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.vbproj.CoreCompileInputs.cache
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.exe
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.xml
+H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.pdb
