@@ -22,7 +22,19 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.ballTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.paddleTimer = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
+        '
+        'ballTimer
+        '
+        Me.ballTimer.Interval = 16
+        '
+        'paddleTimer
+        '
+        Me.paddleTimer.Enabled = True
+        Me.paddleTimer.Interval = 1
         '
         'Form1
         '
@@ -31,9 +43,12 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(600, 680)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
+    Friend WithEvents ballTimer As Timer
+    Friend WithEvents paddleTimer As Timer
 End Class

@@ -3,10 +3,35 @@
     Dim ball As Label
     Dim block(98) As Label
     Dim x As Integer
+    Dim ballV As String = "up"
+    Dim ballH As String = "left"
+    Dim paddleDir As String
+    Dim blackCounter As Integer = 0
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         makeObjects()
         makeBlocks()
         placeBlocks()
+    End Sub
+    Private Sub paddleTimer_Tick(sender As Object, e As EventArgs) Handles paddleTimer.Tick
+        If paddleDir = "left" Then
+            paddle.Location = New Point(paddle.Location.X - 4, paddle.Location.Y)
+        End If
+        If paddleDir = "right" Then
+            paddle.Location = New Point(paddle.Location.X + 4, paddle.Location.Y)
+        End If
+        If paddle.Location.X < 20 Then paddleDir = "right"
+        If paddle.Location.X > 508 Then paddleDir = "left"
+    End Sub
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
+        If e.KeyCode = Keys.Left Then paddleDir = "left"
+        If e.KeyCode = Keys.Right Then paddleDir = "right"
+        If e.KeyCode = Keys.Space Then ballTimer.Start()
+    End Sub
+    Private Sub ballTimer_Tick(sender As Object, e As EventArgs) Handles ballTimer.Tick
+        If ballV = "up" Then ball.Location = New Point(ball.Location.X, ball.Location.Y - 4)
+        If ballV = "down" Then ball.Location = New Point(ball.Location.X, ball.Location.Y + 4)
+        If ballH = "left" Then ball.Location = New Point(ball.Location.X - 4, ball.Location.Y)
+        If ballH = "right" Then ball.Location = New Point(ball.Location.X + 4, ball.Location.Y)
     End Sub
     Public Sub placeBlocks()
         'column 1
