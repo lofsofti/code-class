@@ -6,21 +6,22 @@
     Dim ballV As String = "up"
     Dim ballH As String = "left"
     Dim paddleDir As String
-    Dim blackCounter As Integer = 0
+    Dim blockCounter As Integer = 0
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         makeObjects()
         makeBlocks()
         placeBlocks()
     End Sub
     Private Sub paddleTimer_Tick(sender As Object, e As EventArgs) Handles paddleTimer.Tick
-        If paddleDir = "left" Then
+        If paddleDir = "left" And paddle.Location.X > 20 Then
             paddle.Location = New Point(paddle.Location.X - 4, paddle.Location.Y)
         End If
-        If paddleDir = "right" Then
+        If paddleDir = "right" And paddle.Location.X < 500 Then
             paddle.Location = New Point(paddle.Location.X + 4, paddle.Location.Y)
         End If
-        If paddle.Location.X < 20 Then paddleDir = "right"
-        If paddle.Location.X > 508 Then paddleDir = "left"
+        If ballTimer.Enabled = False Then
+            ball.Location = New Point(paddle.Location.X + 35, 590)
+        End If
     End Sub
     Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
         If e.KeyCode = Keys.Left Then paddleDir = "left"
@@ -32,6 +33,35 @@
         If ballV = "down" Then ball.Location = New Point(ball.Location.X, ball.Location.Y + 4)
         If ballH = "left" Then ball.Location = New Point(ball.Location.X - 4, ball.Location.Y)
         If ballH = "right" Then ball.Location = New Point(ball.Location.X + 4, ball.Location.Y)
+
+        If ball.Bounds.IntersectsWith(leftWall.Bounds) Then ballH = "right"
+        If ball.Bounds.IntersectsWith(rightWall.Bounds) Then ballH = "left"
+        If ball.Bounds.IntersectsWith(topWall.Bounds) Then ballV = "down"
+        If ball.Bounds.IntersectsWith(paddle.Bounds) Then ballV = "up"
+
+        checkBlockCollisions()
+        If ball.Location.Y > 680 Then
+            ballTimer.Stop()
+            paddleTimer.Stop()
+            MsgBox("Game Over")
+        End If
+    End Sub
+    Public Sub checkBlockCollisions()
+        For x = 1 To 98
+            If ball.Bounds.IntersectsWith(block(x).Bounds) Then
+                block(x).Location = New Point(1000, 1000)
+                If ballV = "up" Then
+                    ballV = "down"
+                Else
+                    ballV = "up"
+                End If
+                blockCounter = blockCounter + 1
+                If blockCounter = 98 Then
+                    blockCounter = 0
+                    placeBlocks()
+                End If
+            End If
+        Next
     End Sub
     Public Sub placeBlocks()
         'column 1
@@ -141,7 +171,10 @@
         ball = New Label
         ball.BackColor = Color.Cyan
         ball.Size = New Size(10, 10)
-        ball.Location = New Point(350, 590)
+        ball.Location = New Point(345, 590)
         Controls.Add(ball)
+    End Sub
+    Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles Me.KeyUp
+        paddleDir = "gjfdhgdslkjhg"
     End Sub
 End Class
