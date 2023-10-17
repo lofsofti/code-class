@@ -1,0 +1,12 @@
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.exe.config
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.exe
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.pdb
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.xml
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.Form1.resources
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.Resources.resources
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.exe
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.xml
+C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.pdb
