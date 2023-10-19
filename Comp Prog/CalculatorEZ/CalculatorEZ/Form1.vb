@@ -79,7 +79,6 @@
         If opp = "Multiply" Then calcMultip()
         If opp = "Div" Then calcDiv()
     End Sub
-
     Private Sub number1_TextChanged(sender As Object, e As EventArgs) Handles number1.TextChanged
         lblnum1.Text = number1.Text
     End Sub
