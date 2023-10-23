@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.Form1.resources
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.Resources.resources
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\bin\Debug\FireCorridor.exe.config
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\bin\Debug\FireCorridor.exe
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\bin\Debug\FireCorridor.pdb
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\bin\Debug\FireCorridor.xml
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.exe
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.xml
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\FireCorridor\FireCorridor\obj\Debug\FireCorridor.pdb
