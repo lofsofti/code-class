@@ -182,7 +182,7 @@ Partial Class Form1
         Me.lblXwins.Name = "lblXwins"
         Me.lblXwins.Size = New System.Drawing.Size(99, 26)
         Me.lblXwins.TabIndex = 14
-        Me.lblXwins.Text = "X Wins = 0"
+        Me.lblXwins.Text = "X Wins: 0"
         Me.lblXwins.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblOwins
@@ -193,7 +193,7 @@ Partial Class Form1
         Me.lblOwins.Name = "lblOwins"
         Me.lblOwins.Size = New System.Drawing.Size(99, 26)
         Me.lblOwins.TabIndex = 15
-        Me.lblOwins.Text = "O Wins = 0"
+        Me.lblOwins.Text = "O Wins: 0"
         Me.lblOwins.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblTies
@@ -204,7 +204,7 @@ Partial Class Form1
         Me.lblTies.Name = "lblTies"
         Me.lblTies.Size = New System.Drawing.Size(99, 26)
         Me.lblTies.TabIndex = 16
-        Me.lblTies.Text = "Ties = 0"
+        Me.lblTies.Text = "Ties: 0"
         Me.lblTies.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
@@ -229,7 +229,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Spot3)
         Me.Controls.Add(Me.Spot2)
         Me.Controls.Add(Me.Spot1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Form1"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
