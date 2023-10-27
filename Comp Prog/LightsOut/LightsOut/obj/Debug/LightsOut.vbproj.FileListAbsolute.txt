@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\bin\Debug\LightsOut.exe.config
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\bin\Debug\LightsOut.exe
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\bin\Debug\LightsOut.pdb
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\bin\Debug\LightsOut.xml
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.Form1.resources
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.Resources.resources
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.exe
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.xml
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\LightsOut\LightsOut\obj\Debug\LightsOut.pdb
