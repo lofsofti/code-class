@@ -49,7 +49,7 @@
             Me.lit = False
             Me.Image = Image.FromFile("unlit.png")
         Else
-            Me.lit = False
+            Me.lit = True
             Me.Image = Image.FromFile("lit.png")
         End If
     End Sub
