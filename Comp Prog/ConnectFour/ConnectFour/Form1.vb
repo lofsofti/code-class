@@ -10,18 +10,19 @@
     End Sub
     Public Sub buildBoard()
         connect4 = New Label
-        connect4.Size = New Size(75, 15)
-        connect4.Location = New Point(185, 10)
+        connect4.Font = New Font("Arial", 10)
+        connect4.Size = New Size(100, 15)
+        connect4.Location = New Point(175, 10)
         connect4.TextAlign = ContentAlignment.MiddleCenter
         connect4.AutoSize = False
         connect4.Text = "Connect Four"
         Controls.Add(connect4)
         turn = New Label
-        turn.Size = New Size(30, 15)
+        turn.Size = New Size(35, 15)
         turn.Location = New Point(300, 15)
         turn.TextAlign = ContentAlignment.MiddleCenter
         turn.AutoSize = False
-        turn.Text = "Turn:"
+        turn.Text = "Turn: "
         Controls.Add(turn)
         'fix updating color
         playerTurn = New PictureBox

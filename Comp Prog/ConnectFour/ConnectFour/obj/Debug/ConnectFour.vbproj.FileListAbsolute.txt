@@ -10,3 +10,15 @@ C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ConnectFour\ConnectFour\
 C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.exe
 C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.xml
 C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\bin\Debug\ConnectFour.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\bin\Debug\ConnectFour.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\ConnectFour\ConnectFour\obj\Debug\ConnectFour.pdb
