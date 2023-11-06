@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\bin\Debug\ListDemo.exe.config
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\bin\Debug\ListDemo.exe
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\bin\Debug\ListDemo.pdb
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\bin\Debug\ListDemo.xml
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.Form1.resources
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.Resources.resources
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.exe
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.xml
+C:\Users\814240\Desktop\comp progf\code-class\Comp Prog\ListDemo\ListDemo\obj\Debug\ListDemo.pdb
