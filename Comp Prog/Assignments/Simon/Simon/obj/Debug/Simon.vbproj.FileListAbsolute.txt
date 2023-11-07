@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\bin\Debug\Simon.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\bin\Debug\Simon.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\bin\Debug\Simon.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\bin\Debug\Simon.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Simon\Simon\obj\Debug\Simon.pdb
