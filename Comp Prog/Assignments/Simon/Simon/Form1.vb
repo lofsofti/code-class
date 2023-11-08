@@ -50,15 +50,19 @@
         If r = 2 Then pattern.Add("green")
         If r = 3 Then pattern.Add("red")
         If r = 4 Then pattern.Add("yellow")
+        currentRound += 1
+        lblScore.Text = currentRound
+        If patternTimer.Interval > 50 Then patternTimer.Interval -= 50
     End Sub
     Public Sub startGame()
         Randomize()
         gameOver = False
         pattern.Clear()
         stepNum = 0
-        currentRound = 0
+        currentRound = -1
         lblScore.Text = "0"
         addToPattern()
+        updateTimer()
         patternTimer.Start()
     End Sub
     Private Sub patternTimer_Tick(sender As Object, e As EventArgs) Handles patternTimer.Tick
@@ -85,5 +89,87 @@
         greenL.BackColor = Color.Green
         redL.BackColor = Color.Red
         yellowL.BackColor = Color.Yellow
+    End Sub
+    Public Sub checkHighScore()
+        If currentRound > highScore Then
+            highScore = currentRound
+            lblHscore.Text = highScore
+        End If
+    End Sub
+    Private Sub redL_Click(sender As Object, e As EventArgs) Handles redL.Click
+        If patternTimer.Enabled = False And gameOver = False Then
+            If pattern.Item(stepNum) <> "red" Then
+                MsgBox("Game Over!")
+                gameOver = True
+                checkHighScore()
+            Else
+                stepNum += 1
+                redL.BackColor = Color.Pink
+                showColorTimer.Start()
+            End If
+            If stepNum = pattern.Count Then
+                addToPattern()
+                stepNum = 0
+                patternTimer.Start()
+            End If
+        End If
+    End Sub
+    Private Sub yellowL_Click(sender As Object, e As EventArgs) Handles yellowL.Click
+        If patternTimer.Enabled = False And gameOver = False Then
+            If pattern.Item(stepNum) <> "yellow" Then
+                MsgBox("Game Over!")
+                gameOver = True
+                checkHighScore()
+            Else
+                stepNum += 1
+                yellowL.BackColor = Color.White
+                showColorTimer.Start()
+            End If
+            If stepNum = pattern.Count Then
+                addToPattern()
+                stepNum = 0
+                patternTimer.Start()
+            End If
+        End If
+    End Sub
+    Private Sub greenL_Click(sender As Object, e As EventArgs) Handles greenL.Click
+        If patternTimer.Enabled = False And gameOver = False Then
+            If pattern.Item(stepNum) <> "green" Then
+                MsgBox("Game Over!")
+                gameOver = True
+                checkHighScore()
+            Else
+                stepNum += 1
+                greenL.BackColor = Color.LightGreen
+                showColorTimer.Start()
+            End If
+            If stepNum = pattern.Count Then
+                addToPattern()
+                stepNum = 0
+                patternTimer.Start()
+            End If
+        End If
+    End Sub
+    Private Sub blueL_Click(sender As Object, e As EventArgs) Handles blueL.Click
+        If patternTimer.Enabled = False And gameOver = False Then
+            If pattern.Item(stepNum) <> "blue" Then
+                MsgBox("Game Over!")
+                gameOver = True
+                checkHighScore()
+            Else
+                stepNum += 1
+                blueL.BackColor = Color.Cyan
+                showColorTimer.Start()
+            End If
+            If stepNum = pattern.Count Then
+                addToPattern()
+                stepNum = 0
+                patternTimer.Start()
+            End If
+        End If
+    End Sub
+    Private Sub showColorTimer_Tick(sender As Object, e As EventArgs) Handles showColorTimer.Tick
+        showColorTimer.Stop()
+        resetColors()
     End Sub
 End Class

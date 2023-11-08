@@ -29,7 +29,7 @@ Partial Class Form1
         Me.MediumToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DifficultToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.showColorTier = New System.Windows.Forms.Timer(Me.components)
+        Me.showColorTimer = New System.Windows.Forms.Timer(Me.components)
         Me.patternTimer = New System.Windows.Forms.Timer(Me.components)
         Me.redL = New System.Windows.Forms.Label()
         Me.yellowL = New System.Windows.Forms.Label()
@@ -62,19 +62,19 @@ Partial Class Form1
         'EasyToolStripMenuItem
         '
         Me.EasyToolStripMenuItem.Name = "EasyToolStripMenuItem"
-        Me.EasyToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.EasyToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
         Me.EasyToolStripMenuItem.Text = "Easy"
         '
         'MediumToolStripMenuItem
         '
         Me.MediumToolStripMenuItem.Name = "MediumToolStripMenuItem"
-        Me.MediumToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MediumToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
         Me.MediumToolStripMenuItem.Text = "Medium"
         '
         'DifficultToolStripMenuItem
         '
         Me.DifficultToolStripMenuItem.Name = "DifficultToolStripMenuItem"
-        Me.DifficultToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DifficultToolStripMenuItem.Size = New System.Drawing.Size(119, 22)
         Me.DifficultToolStripMenuItem.Text = "Hard"
         '
         'HelpToolStripMenuItem
@@ -82,6 +82,9 @@ Partial Class Form1
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'showColorTimer
+        '
         '
         'patternTimer
         '
@@ -186,9 +189,12 @@ Partial Class Form1
         Me.Controls.Add(Me.yellowL)
         Me.Controls.Add(Me.redL)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.KeyPreview = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -202,7 +208,7 @@ Partial Class Form1
     Friend WithEvents EasyToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MediumToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DifficultToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents showColorTier As Timer
+    Friend WithEvents showColorTimer As Timer
     Friend WithEvents patternTimer As Timer
     Friend WithEvents redL As Label
     Friend WithEvents yellowL As Label
