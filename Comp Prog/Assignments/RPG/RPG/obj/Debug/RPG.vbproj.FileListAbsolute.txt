@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\bin\Debug\RPG.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\bin\Debug\RPG.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\bin\Debug\RPG.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\bin\Debug\RPG.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\RPG\RPG\obj\Debug\RPG.Form1.resources

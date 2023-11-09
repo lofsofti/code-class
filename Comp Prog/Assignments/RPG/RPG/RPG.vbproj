@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB0F1C2D-B7FD-47B2-A482-EA4F52EC9B40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RPG.My.MyApplication</StartupObject>
+    <RootNamespace>RPG</RootNamespace>
+    <AssemblyName>RPG</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RPG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RPG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\armor.png" />
+    <Content Include="bin\Debug\arrowdown.png" />
+    <Content Include="bin\Debug\arrowleft.png" />
+    <Content Include="bin\Debug\arrowright.png" />
+    <Content Include="bin\Debug\arrowup.png" />
+    <Content Include="bin\Debug\blank.png" />
+    <Content Include="bin\Debug\block.png" />
+    <Content Include="bin\Debug\bluedoor.png" />
+    <Content Include="bin\Debug\bluekey.png" />
+    <Content Include="bin\Debug\bluepotion.png" />
+    <Content Include="bin\Debug\bluewalk.png" />
+    <Content Include="bin\Debug\book.png" />
+    <Content Include="bin\Debug\boots.png" />
+    <Content Include="bin\Debug\chest.png" />
+    <Content Include="bin\Debug\crackedground.png" />
+    <Content Include="bin\Debug\crossbow.png" />
+    <Content Include="bin\Debug\darkknight.png" />
+    <Content Include="bin\Debug\demon.png" />
+    <Content Include="bin\Debug\door.png" />
+    <Content Include="bin\Debug\dragon.png" />
+    <Content Include="bin\Debug\exit.png" />
+    <Content Include="bin\Debug\eyeball.png" />
+    <Content Include="bin\Debug\ff1spritesheet.png" />
+    <Content Include="bin\Debug\fire.png" />
+    <Content Include="bin\Debug\fireball.png" />
+    <Content Include="bin\Debug\fireboots.png" />
+    <Content Include="bin\Debug\flippers.png" />
+    <Content Include="bin\Debug\food.png" />
+    <Content Include="bin\Debug\fountain.png" />
+    <Content Include="bin\Debug\giant.png" />
+    <Content Include="bin\Debug\goblin.png" />
+    <Content Include="bin\Debug\gold.png" />
+    <Content Include="bin\Debug\grass.png" />
+    <Content Include="bin\Debug\grass2.png" />
+    <Content Include="bin\Debug\greendoor.png" />
+    <Content Include="bin\Debug\greenkey.png" />
+    <Content Include="bin\Debug\ground.png" />
+    <Content Include="bin\Debug\herodown1.png" />
+    <Content Include="bin\Debug\herodown2.png" />
+    <Content Include="bin\Debug\ice.png" />
+    <Content Include="bin\Debug\imap1.txt" />
+    <Content Include="bin\Debug\imap2.txt" />
+    <Content Include="bin\Debug\imap3.txt" />
+    <Content Include="bin\Debug\key.png" />
+    <Content Include="bin\Debug\lava.png" />
+    <Content Include="bin\Debug\lava2.png" />
+    <Content Include="bin\Debug\map1.txt" />
+    <Content Include="bin\Debug\map2.txt" />
+    <Content Include="bin\Debug\map3.txt" />
+    <Content Include="bin\Debug\mountain.png" />
+    <Content Include="bin\Debug\ooze.png" />
+    <Content Include="bin\Debug\orc.png" />
+    <Content Include="bin\Debug\pathbl.png" />
+    <Content Include="bin\Debug\pathBottom.png" />
+    <Content Include="bin\Debug\pathbr.png" />
+    <Content Include="bin\Debug\pathleft.png" />
+    <Content Include="bin\Debug\pathright.png" />
+    <Content Include="bin\Debug\pathtl.png" />
+    <Content Include="bin\Debug\pathtop.png" />
+    <Content Include="bin\Debug\pathtr.png" />
+    <Content Include="bin\Debug\poisonapple.png" />
+    <Content Include="bin\Debug\potion.png" />
+    <Content Include="bin\Debug\reddoor.png" />
+    <Content Include="bin\Debug\redkey.png" />
+    <Content Include="bin\Debug\redpotion.png" />
+    <Content Include="bin\Debug\ring.png" />
+    <Content Include="bin\Debug\rock.png" />
+    <Content Include="bin\Debug\safelava.png" />
+    <Content Include="bin\Debug\shinypath.png" />
+    <Content Include="bin\Debug\skates.png" />
+    <Content Include="bin\Debug\skeleton.png" />
+    <Content Include="bin\Debug\skeletonking.png" />
+    <Content Include="bin\Debug\slime.png" />
+    <Content Include="bin\Debug\spell.png" />
+    <Content Include="bin\Debug\stairsdown.png" />
+    <Content Include="bin\Debug\stairsup.png" />
+    <Content Include="bin\Debug\sword1.png" />
+    <Content Include="bin\Debug\sword2.png" />
+    <Content Include="bin\Debug\torch.png" />
+    <Content Include="bin\Debug\tree.png" />
+    <Content Include="bin\Debug\troll.png" />
+    <Content Include="bin\Debug\wall.png" />
+    <Content Include="bin\Debug\water.png" />
+    <Content Include="bin\Debug\water2.png" />
+    <Content Include="bin\Debug\yellowdoor.png" />
+    <Content Include="bin\Debug\yellowkey.png" />
+    <Content Include="bin\Debug\yellowpotion.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
