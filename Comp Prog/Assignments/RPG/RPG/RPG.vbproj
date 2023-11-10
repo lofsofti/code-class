@@ -160,12 +160,16 @@
     <Content Include="bin\Debug\herodown1.png" />
     <Content Include="bin\Debug\herodown2.png" />
     <Content Include="bin\Debug\ice.png" />
+    <Content Include="bin\Debug\imap5.txt" />
+    <Content Include="bin\Debug\imap4.txt" />
     <Content Include="bin\Debug\imap1.txt" />
     <Content Include="bin\Debug\imap2.txt" />
     <Content Include="bin\Debug\imap3.txt" />
     <Content Include="bin\Debug\key.png" />
     <Content Include="bin\Debug\lava.png" />
     <Content Include="bin\Debug\lava2.png" />
+    <Content Include="bin\Debug\map5.txt" />
+    <Content Include="bin\Debug\map4.txt" />
     <Content Include="bin\Debug\map1.txt" />
     <Content Include="bin\Debug\map2.txt" />
     <Content Include="bin\Debug\map3.txt" />
@@ -193,6 +197,7 @@
     <Content Include="bin\Debug\skeleton.png" />
     <Content Include="bin\Debug\skeletonking.png" />
     <Content Include="bin\Debug\slime.png" />
+    <Content Include="bin\Debug\snow.png" />
     <Content Include="bin\Debug\spell.png" />
     <Content Include="bin\Debug\stairsdown.png" />
     <Content Include="bin\Debug\stairsup.png" />

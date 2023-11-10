@@ -1,6 +1,4 @@
 ﻿Imports System.IO
-Imports System.Drawing
-Imports System.Drawing.Drawing2D
 Public Class Form1
     Dim heroSpriteSheet As New Bitmap("FF1SpriteSheet.png")
     Dim heroChoice As Integer = 5 'Use 0 to 12 to represent the different rows in the spritesheet
@@ -9,7 +7,7 @@ Public Class Form1
     Dim MapHeight As Integer = 14       'Controls the number of tiles in each column of your map - You can change this to match the height of your map files
     Dim TileWidth As Integer = 32       'Width, in Pixels of each tile - You could change this if you wanted smaller or larger sized tiles, but I would make certain it holds the same value as TileHeight
     Dim TileHeight As Integer = 32      'Height, in Pixels of each tile - - You could change this if you wanted smaller or larger sized tiles, but I would make certain it holds the same value as TileWidth
-    Dim NumLevels As Integer = 3       'Number of Levels in your Dungeon - If you increase this, you need to have both a map and imap text file for all levels or program will not be able to function
+    Dim NumLevels As Integer = 5       'Number of Levels in your Dungeon - If you increase this, you need to have both a map and imap text file for all levels or program will not be able to function
     Dim board(MapWidth, MapHeight) As PictureBox
     Dim CurrentLevel As Integer = 1     'Stores the current level of the Dungeon hero is on - We start at level 1 and it goes up when we go up stairs, it goes down when we go down stairs
     Dim map(MapWidth, MapHeight, NumLevels + 1) As String  'All of our map text files get loaded into this 3D array, which stores all background codes in (X, Y, Level)  map(3, 5, 2) stores the background texture for (3, 5) for Level 2
@@ -18,6 +16,7 @@ Public Class Form1
     Dim hero As PictureBox          'our hero!
     Dim HeroX, HeroY As Integer   'Keeps track of Hero's current (X,Y) position on board
     Dim NumKeys As Integer = 0    'Number of keys the hero currently holds
+    Dim numSwords As Integer = 0
     Dim HeroDirection As String   'Direction the hero is moving in
     Dim MapFileName As String       'Stores the filename of our map text files.  Make sure all map files are saved as "mapx.txt", where x is the level
     Dim ItemFileName As String       'Stores the filename of our item text files.  Make sure all item files are saved as "imapx.txt", where x is the level
@@ -40,6 +39,8 @@ Public Class Form1
             HeroY = HeroY - 1
             HeroDirection = "up"
             row = 4
+        ElseIf e.KeyCode = Keys.I Then
+            MsgBox("You have " & numSwords & " swords")
         ElseIf e.KeyCode = Keys.S And map(HeroX, HeroY + 1, CurrentLevel) <> "w" And map(HeroX, HeroY + 1, CurrentLevel) <> "m" Then  'Move hero down if the tile above him isn't a wall
             HeroY = HeroY + 1
             HeroDirection = "down"
@@ -161,6 +162,8 @@ Public Class Form1
             item = New Bitmap(Image.FromFile("orc.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "d" Then
             item = New Bitmap(Image.FromFile("stairsdown.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "s" Then
+            item = New Bitmap(Image.FromFile("sword2.png"), New Size(TileWidth, TileHeight))
             'Add more elseifs for more item choices
         Else
             item = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
@@ -204,6 +207,14 @@ Public Class Form1
             clearBackgroundAndItems()
             DrawLevel()
             hero.BringToFront()
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "s" Then
+            numSwords += 1
+            imap(HeroX, HeroY, CurrentLevel) = "n"
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "m" And numSwords = 0 Then
+            MoveHeroBack()
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "m" And numSwords > 0 Then
+            numSwords -= 1
+            imap(HeroX, HeroY, CurrentLevel) = "n"
             '***************** Here is where you will add additional items interactions to your RPG game *********************
             'Add elseIf statements for other item codes how you want the program to react.
             'You could add sword objects that are kept track of it your inventory like keys
