@@ -23,10 +23,12 @@ Public Class Form1
     Dim Mapfiles(NumLevels + 1) As StreamReader 'We use StreamReader to read our various map text files.  We create an array of streamreaders, since each one holds a different map file
     Dim ItemFiles(NumLevels + 1) As StreamReader  'We use StreamReader to read our various item text files.  We create an array of streamreaders, since each one holds a different item file
     Dim row As Integer
+    Dim impassable As New List(Of String)
     '  Dim heroSpriteSheet As Bitmap
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Size = New Size(TileWidth * MapWidth + 16, TileHeight * MapHeight + 40)
         changeHeroBitMap()
+        addImpassableTextures()
         LoadMapsAndItems()  'Loads all map files and items files into the map and imap Arrays
         LoadHero()          'Creates our hero picturebox and places him at (1,1)
         DrawLevel()         'Draws both background and items pictureboxes
@@ -35,28 +37,45 @@ Public Class Form1
         '************************* Here you can add different image files for when he moves in different directions and add code for taking alternating steps using two image files for each direction
         If e.KeyCode = Keys.K Then              'K messageboxes the number of keys you currently have
             MsgBox("You have " & NumKeys & " keys.")
-        ElseIf e.KeyCode = Keys.W And map(HeroX, HeroY - 1, CurrentLevel) <> "w" And map(HeroX, HeroY - 1, CurrentLevel) <> "m" And map(HeroX, HeroY - 1, CurrentLevel) <> "L" Then   'Move hero up if the tile above him isn't a wall
-            HeroY = HeroY - 1
-            HeroDirection = "up"
-            row = 4
-        ElseIf e.KeyCode = Keys.I Then
-            MsgBox("You have " & numSwords & " swords")
-        ElseIf e.KeyCode = Keys.S And map(HeroX, HeroY + 1, CurrentLevel) <> "w" And map(HeroX, HeroY + 1, CurrentLevel) <> "m" Then  'Move hero down if the tile above him isn't a wall
-            HeroY = HeroY + 1
-            HeroDirection = "down"
-            row = 0
-        ElseIf e.KeyCode = Keys.A And map(HeroX - 1, HeroY, CurrentLevel) <> "w" Then    'Move hero left if the tile to his left isn't a wall
-            HeroX = HeroX - 1
-            row = 2
-            HeroDirection = "left"
-        ElseIf e.KeyCode = Keys.D And map(HeroX + 1, HeroY, CurrentLevel) <> "w" Then   'Move hero right if the tile to his right isn't a wall
-            HeroX = HeroX + 1
-            HeroDirection = "right"
-            row = 2
+        ElseIf e.KeyCode = Keys.W Then
+            If isPassable(map(HeroX, HeroY - 1, CurrentLevel)) Then   'Move hero up if the tile above him isn't a wall
+                HeroY = HeroY - 1
+                HeroDirection = "up"
+                row = 4
+            End If
+        ElseIf e.KeyCode = Keys.S Then
+            If isPassable(map(HeroX, HeroY + 1, CurrentLevel)) Then  'Move hero down if the tile above him isn't a wall
+                HeroY = HeroY + 1
+                HeroDirection = "down"
+                row = 0
+            End If
+        ElseIf e.KeyCode = Keys.A Then
+            If isPassable(map(HeroX - 1, HeroY, CurrentLevel)) Then    'Move hero left if the tile to his left isn't a wall
+                HeroX = HeroX - 1
+                row = 2
+                HeroDirection = "left"
+            End If
+        ElseIf e.KeyCode = Keys.D Then
+            If isPassable(map(HeroX + 1, HeroY, CurrentLevel)) Then   'Move hero right if the tile to his right isn't a wall
+                HeroX = HeroX + 1
+                HeroDirection = "right"
+                row = 2
+            End If
         End If
         changeHeroBitMap()
         CheckItems()  'Check to see if he hit any items (keys, doors, stairs, etc..)    'Check to see if he interacts with an item after everymove
     End Sub
+    Public Sub addImpassableTextures()
+        impassable.Add("w")   'No walking through wall textures
+        impassable.Add("t")
+        impassable.Add("W")
+    End Sub
+    Public Function isPassable(ByVal mapTexture As String) As Boolean
+        For x = 0 To impassable.Count - 1
+            If impassable.Item(x) = mapTexture Then Return False
+        Next
+        Return True
+    End Function
     Public Sub changeHeroBitMap() 'Creates the hero bitmap (HeroBM) based on the tile size and direction the hero is facing
         heroBM = New Bitmap(TileWidth, TileHeight)
         Using FrameGraphics As Graphics = Graphics.FromImage(heroBM)
@@ -147,6 +166,8 @@ Public Class Form1
             back = New Bitmap(Image.FromFile("ice.png"), New Size(TileWidth, TileHeight))
         ElseIf map(x, y, CurrentLevel) = "t" Then
             back = New Bitmap(Image.FromFile("tree.png"), New Size(TileWidth, TileHeight))
+        ElseIf map(x, y, CurrentLevel) = "W" Then
+            back = New Bitmap(Image.FromFile("water.png"), New Size(TileWidth, TileHeight))
             'Add more ElseIf statements for more background choices
         Else
             back = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
