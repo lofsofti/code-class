@@ -1,0 +1,13 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub_clicker.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub_clicker.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub_clicker.Form2.resources
