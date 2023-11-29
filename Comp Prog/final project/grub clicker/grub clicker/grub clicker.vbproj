@@ -129,5 +129,11 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\download.png" />
+    <Content Include="bin\Debug\Grub clicker.png" />
+    <Content Include="bin\Debug\maxresdefault.jpg" />
+    <Content Include="bin\Debug\menuhk.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
