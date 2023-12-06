@@ -132,6 +132,7 @@
   <ItemGroup>
     <Content Include="bin\Debug\download.png" />
     <Content Include="bin\Debug\Grub clicker.png" />
+    <Content Include="bin\Debug\hkbg.png" />
     <Content Include="bin\Debug\maxresdefault.jpg" />
     <Content Include="bin\Debug\menuhk.png" />
   </ItemGroup>
