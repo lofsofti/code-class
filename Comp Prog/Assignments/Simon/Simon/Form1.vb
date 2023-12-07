@@ -8,18 +8,21 @@
     Dim gameDifficulty As String = "easy"
     Dim pattern As New List(Of String)
     Private Sub EasyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EasyToolStripMenuItem.Click
+        MsgBox("Click N to start game")
         If gameOver = True Then
             gameDifficulty = "easy"
             updateTimer()
         End If
     End Sub
     Private Sub MediumToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MediumToolStripMenuItem.Click
+        MsgBox("Click N to start game")
         If gameOver = True Then
             gameDifficulty = "medium"
             updateTimer()
         End If
     End Sub
     Private Sub HardToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DifficultToolStripMenuItem.Click
+        MsgBox("Click N to start game")
         If gameOver = True Then
             gameDifficulty = "hard"
             updateTimer()

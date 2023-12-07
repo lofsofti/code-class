@@ -10,3 +10,15 @@ C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.
 C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.exe
 C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.xml
 C:\code-class\Comp Prog\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\bin\Debug\CalculatorEZ.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\CalculatorEZ\CalculatorEZ\obj\Debug\CalculatorEZ.pdb

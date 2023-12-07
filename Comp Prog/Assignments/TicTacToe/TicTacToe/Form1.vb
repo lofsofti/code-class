@@ -104,6 +104,7 @@
             Spot3.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot4.Text = playerSymbol And Spot5.Text = playerSymbol And Spot6.Text = playerSymbol Then
@@ -112,6 +113,7 @@
             Spot6.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot7.Text = playerSymbol And Spot8.Text = playerSymbol And Spot9.Text = playerSymbol Then
@@ -120,6 +122,7 @@
             Spot9.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot1.Text = playerSymbol And Spot4.Text = playerSymbol And Spot7.Text = playerSymbol Then
@@ -128,6 +131,7 @@
             Spot7.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot2.Text = playerSymbol And Spot5.Text = playerSymbol And Spot8.Text = playerSymbol Then
@@ -136,6 +140,7 @@
             Spot8.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot3.Text = playerSymbol And Spot6.Text = playerSymbol And Spot9.Text = playerSymbol Then
@@ -144,6 +149,7 @@
             Spot9.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot1.Text = playerSymbol And Spot5.Text = playerSymbol And Spot9.Text = playerSymbol Then
@@ -152,6 +158,7 @@
             Spot9.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
         If Spot3.Text = playerSymbol And Spot5.Text = playerSymbol And Spot7.Text = playerSymbol Then
@@ -160,12 +167,14 @@
             Spot7.BackColor = Color.LightBlue
             gameOver = True
             MsgBox(playerSymbol & " wins!")
+            MsgBox("Click R to restart")
             updateWins()
         End If
     End Sub
     Public Sub checkTie()
         If gameOver = False And Spot1.Text <> "" And Spot2.Text <> "" And Spot3.Text <> "" And Spot4.Text <> "" And Spot5.Text <> "" And Spot6.Text <> "" And Spot7.Text <> "" And Spot8.Text <> "" And Spot9.Text <> "" Then
             MsgBox("Cat's game")
+            MsgBox("Click R to restart")
             ties += 1
             lblTies.Text = "Ties: " & ties
             gameOver = True
@@ -192,15 +201,15 @@
             Spot7.Text = ""
             Spot8.Text = ""
             Spot9.Text = ""
-            Spot1.BackColor = Color.White
-            Spot2.BackColor = Color.White
-            Spot3.BackColor = Color.White
-            Spot4.BackColor = Color.White
-            Spot5.BackColor = Color.White
-            Spot6.BackColor = Color.White
-            Spot7.BackColor = Color.White
-            Spot8.BackColor = Color.White
-            Spot9.BackColor = Color.White
+            Spot1.BackColor = Color.Moccasin
+            Spot2.BackColor = Color.Moccasin
+            Spot3.BackColor = Color.Moccasin
+            Spot4.BackColor = Color.Moccasin
+            Spot5.BackColor = Color.Moccasin
+            Spot6.BackColor = Color.Moccasin
+            Spot7.BackColor = Color.Moccasin
+            Spot8.BackColor = Color.Moccasin
+            Spot9.BackColor = Color.Moccasin
             gameOver = False
         End If
     End Sub

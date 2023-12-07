@@ -81,9 +81,11 @@
     End Sub
     Private Sub number1_TextChanged(sender As Object, e As EventArgs) Handles number1.TextChanged
         lblnum1.Text = number1.Text
+        If number1.Text = ("") Then lblnum1.Text = ("0")
     End Sub
     Private Sub number2_TextChanged(sender As Object, e As EventArgs) Handles number2.TextChanged
         lblnum2.Text = number2.Text
+        If number2.Text = ("") Then lblnum2.Text = ("0")
     End Sub
     Private Sub tnclear_Click(sender As Object, e As EventArgs) Handles tnclear.Click
         lblnum1.Text = "0"

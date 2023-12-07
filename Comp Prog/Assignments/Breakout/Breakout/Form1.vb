@@ -30,6 +30,7 @@
         If e.KeyCode = Keys.Left Then paddleDir = "left"
         If e.KeyCode = Keys.Right Then paddleDir = "right"
         If e.KeyCode = Keys.Space Then ballTimer.Start()
+        If e.KeyCode = Keys.R And ballTimer.Enabled = False Then resetGame()
     End Sub
     Private Sub ballTimer_Tick(sender As Object, e As EventArgs) Handles ballTimer.Tick
         If ballV = "up" Then ball.Location = New Point(ball.Location.X, ball.Location.Y - 4)

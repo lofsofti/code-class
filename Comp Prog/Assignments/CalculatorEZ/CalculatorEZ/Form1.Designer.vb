@@ -157,6 +157,7 @@ Partial Class Form1
         '
         'number1
         '
+        Me.number1.BackColor = System.Drawing.Color.RosyBrown
         Me.number1.Location = New System.Drawing.Point(12, 96)
         Me.number1.Name = "number1"
         Me.number1.Size = New System.Drawing.Size(112, 33)
@@ -164,6 +165,7 @@ Partial Class Form1
         '
         'number2
         '
+        Me.number2.BackColor = System.Drawing.Color.RosyBrown
         Me.number2.Location = New System.Drawing.Point(12, 168)
         Me.number2.Name = "number2"
         Me.number2.Size = New System.Drawing.Size(112, 33)
@@ -193,6 +195,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.RosyBrown
         Me.ClientSize = New System.Drawing.Size(376, 297)
         Me.Controls.Add(Me.tnclear)
         Me.Controls.Add(Me.btncalc)

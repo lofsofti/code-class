@@ -22,3 +22,15 @@ H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.vbproj.CoreCo
 H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.exe
 H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.xml
 H:\skool\code-class\Comp Prog\Breakout\Breakout\obj\Debug\Breakout.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\bin\Debug\Breakout.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\bin\Debug\Breakout.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\bin\Debug\Breakout.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\bin\Debug\Breakout.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\Assignments\Breakout\Breakout\obj\Debug\Breakout.pdb
