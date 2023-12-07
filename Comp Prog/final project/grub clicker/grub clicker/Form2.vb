@@ -4,7 +4,6 @@
         Me.Close()
         Form1.Close()
     End Sub
-
     Private Sub GRUBBBB_Click(sender As Object, e As EventArgs) Handles GRUBBBB.Click
         clicks += 1
         lblClicks.Text = "Clicks: " & clicks

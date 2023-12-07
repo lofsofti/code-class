@@ -32,7 +32,8 @@ Partial Class Form1
         '
         Me.lblStartbtn.BackColor = System.Drawing.Color.Transparent
         Me.lblStartbtn.Font = New System.Drawing.Font("Malgun Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStartbtn.Location = New System.Drawing.Point(337, 293)
+        Me.lblStartbtn.ForeColor = System.Drawing.Color.White
+        Me.lblStartbtn.Location = New System.Drawing.Point(314, 298)
         Me.lblStartbtn.Name = "lblStartbtn"
         Me.lblStartbtn.Size = New System.Drawing.Size(160, 49)
         Me.lblStartbtn.TabIndex = 1
@@ -43,7 +44,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(108, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(95, 17)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(598, 278)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
