@@ -18,6 +18,5 @@
         End If
         If fire1.Size.Width = 135 Then fireGrow = "smaller"
         If fire1.Size.Width = 25 Then fireGrow = "bigger"
-
     End Sub
 End Class

@@ -158,6 +158,7 @@ Public Class Form1
     End Sub
     Private Sub updateLocation(ByVal x As Integer, ByVal y As Integer)
         'Background Images
+        '''''''''''''''''''''''''''ADD TWO NEW BACKGROUND THAT IS NOT GRASS OR WALL AND MAKE ONE IMPASSABLE
         If map(x, y, CurrentLevel) = "g" Then
             back = New Bitmap(Image.FromFile("grass.png"), New Size(TileWidth, TileHeight))
         ElseIf map(x, y, CurrentLevel) = "w" Then
@@ -173,6 +174,7 @@ Public Class Form1
             back = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
         End If
         'load item bitmaps
+        '''''''''''''''''''''''''''ADD 4 THAT ARE NOT KEY DOOR SWORD OR MONSTER ADD 4 INTERACTIVE ITEMS
         If imap(x, y, CurrentLevel) = "k" Then
             item = New Bitmap(Image.FromFile("key.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "l" Then
