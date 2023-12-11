@@ -171,6 +171,8 @@ Public Class Form1
             back = New Bitmap(Image.FromFile("tree.png"), New Size(TileWidth, TileHeight))
         ElseIf map(x, y, CurrentLevel) = "W" Then
             back = New Bitmap(Image.FromFile("water.png"), New Size(TileWidth, TileHeight))
+        ElseIf map(x, y, CurrentLevel) = "e" Then
+            back = New Bitmap(Image.FromFile("exit.png"), New Size(TileWidth, TileHeight))
             'Add more ElseIf statements for more background choices
         Else
             back = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
@@ -194,6 +196,8 @@ Public Class Form1
             item = New Bitmap(Image.FromFile("bluepotion.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "o" Then
             item = New Bitmap(Image.FromFile("gold.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "i" Then
+            item = New Bitmap(Image.FromFile("ice.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "e" Then
             item = New Bitmap(Image.FromFile("exit.png"), New Size(TileWidth, TileHeight))
             'Add more elseifs for more item choices
@@ -239,6 +243,8 @@ Public Class Form1
             clearBackgroundAndItems()
             DrawLevel()
             hero.BringToFront()
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "e" Then
+            MsgBox("You Win so now leave")
         ElseIf imap(HeroX, HeroY, CurrentLevel) = "s" Then
             numSwords += 1
             imap(HeroX, HeroY, CurrentLevel) = "n"
@@ -254,8 +260,6 @@ Public Class Form1
         ElseIf imap(HeroX, HeroY, CurrentLevel) = "f" And numSwords > 0 Then
             foodnum += 1
             imap(HeroX, HeroY, CurrentLevel) = "n"
-        ElseIf imap(HeroX, HeroY, CurrentLevel) = "e" And numSwords > 0 Then
-            Me.Close()
             '***************** Here is where you will add additional items interactions to your RPG game *********************
             'Add elseIf statements for other item codes how you want the program to react.
             'You could add sword objects that are kept track of it your inventory like keys
