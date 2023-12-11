@@ -158,7 +158,7 @@ Public Class Form1
     End Sub
     Private Sub updateLocation(ByVal x As Integer, ByVal y As Integer)
         'Background Images
-        '''''''''''''''''''''''''''ADD TWO NEW BACKGROUND THAT IS NOT GRASS OR WALL AND MAKE ONE IMPASSABLE
+        '''''''''''''''''''''''''''''''''''''''IMPLEMENT
         If map(x, y, CurrentLevel) = "g" Then
             back = New Bitmap(Image.FromFile("grass.png"), New Size(TileWidth, TileHeight))
         ElseIf map(x, y, CurrentLevel) = "w" Then
@@ -174,7 +174,7 @@ Public Class Form1
             back = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
         End If
         'load item bitmaps
-        '''''''''''''''''''''''''''ADD 4 THAT ARE NOT KEY DOOR SWORD OR MONSTER ADD 4 INTERACTIVE ITEMS
+        '''''''''''''''''''''''''''IMPLEMT THE 4 NEW ONES
         If imap(x, y, CurrentLevel) = "k" Then
             item = New Bitmap(Image.FromFile("key.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "l" Then
@@ -187,6 +187,15 @@ Public Class Form1
             item = New Bitmap(Image.FromFile("stairsdown.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "s" Then
             item = New Bitmap(Image.FromFile("sword2.png"), New Size(TileWidth, TileHeight))
+
+        ElseIf imap(x, y, CurrentLevel) = "a" Then
+            item = New Bitmap(Image.FromFile("armor.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "e" Then
+            item = New Bitmap(Image.FromFile("exit.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "y" Then
+            item = New Bitmap(Image.FromFile("yellowpotion.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "r" Then
+            item = New Bitmap(Image.FromFile("stairsdown.png"), New Size(TileWidth, TileHeight))
             'Add more elseifs for more item choices
         Else
             item = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
