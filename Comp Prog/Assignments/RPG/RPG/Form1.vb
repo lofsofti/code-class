@@ -9,7 +9,7 @@ Public Class Form1
     Dim TileHeight As Integer = 32      'Height, in Pixels of each tile - - You could change this if you wanted smaller or larger sized tiles, but I would make certain it holds the same value as TileWidth
     Dim NumLevels As Integer = 5       'Number of Levels in your Dungeon - If you increase this, you need to have both a map and imap text file for all levels or program will not be able to function
     Dim board(MapWidth, MapHeight) As PictureBox
-    Dim CurrentLevel As Integer = 1   'Stores the current level of the Dungeon hero is on - We start at level 1 and it goes up when we go up stairs, it goes down when we go down stairs
+    Dim CurrentLevel As Integer = 5   'Stores the current level of the Dungeon hero is on - We start at level 1 and it goes up when we go up stairs, it goes down when we go down stairs
     Dim map(MapWidth, MapHeight, NumLevels + 1) As String  'All of our map text files get loaded into this 3D array, which stores all background codes in (X, Y, Level)  map(3, 5, 2) stores the background texture for (3, 5) for Level 2
     Dim imap(MapWidth, MapHeight, NumLevels + 1) As String 'All of our item files get loaded into this 3D array, which stores all item codes in (X, Y, Level)  imap(10, 7, 5) stores the item texture for (10, 7) for Level 5
     Dim x, y, z As Integer             'Use in for loops to set starting values
@@ -184,6 +184,8 @@ Public Class Form1
             item = New Bitmap(Image.FromFile("door.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "u" Then
             item = New Bitmap(Image.FromFile("stairsup.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "b" Then
+            item = New Bitmap(Image.FromFile("block.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "m" Then
             item = New Bitmap(Image.FromFile("orc.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "d" Then
@@ -192,8 +194,6 @@ Public Class Form1
             item = New Bitmap(Image.FromFile("sword2.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "y" Then
             item = New Bitmap(Image.FromFile("yellowpotion.png"), New Size(TileWidth, TileHeight))
-        ElseIf imap(x, y, CurrentLevel) = "b" Then
-            item = New Bitmap(Image.FromFile("bluepotion.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "o" Then
             item = New Bitmap(Image.FromFile("gold.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "i" Then
@@ -228,6 +228,8 @@ Public Class Form1
         If imap(HeroX, HeroY, CurrentLevel) = "k" Then  'k means key, so we add 1 to numKeys and change the k to an n so it won't draw it next time the level loads and won't add to numkeys when we bext walk over it, we also make the tile invisible so we don't see it anymore
             NumKeys = NumKeys + 1
             imap(HeroX, HeroY, CurrentLevel) = "n"
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "b" And NumKeys = 0 Then  'If I hit a "l" (Locked door) and I don't have any keys, move me back
+            MsgBox("You Win so now leave")
         ElseIf imap(HeroX, HeroY, CurrentLevel) = "l" And NumKeys = 0 Then  'If I hit a "l" (Locked door) and I don't have any keys, move me back
             MoveHeroBack()
         ElseIf imap(HeroX, HeroY, CurrentLevel) = "l" And NumKeys > 0 Then 'if I hit a locked door and I have at least 1 key, subtract 1 key and change the "l" to "n" (nothing) and make it invisible

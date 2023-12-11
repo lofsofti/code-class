@@ -80,7 +80,7 @@
                 If block(x).BackColor = Color.Yellow Then score += 50
                 If block(x).BackColor = Color.Red Then score += 100
                 lblScore.Text = score
-                If blockCounter = 5 Then resetGame()
+                If blockCounter = 98 Then resetGame()
                 Exit For
             End If
         Next

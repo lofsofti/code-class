@@ -2,7 +2,7 @@
     Dim topWall, leftWall, rightWall, paddle As PictureBox
     Dim ball As Label
     Dim block(98) As Label
-    Dim lblScore, lblHighScore, lblSc, lblHS, lblBlack As Label
+    Dim lblScore, lblHighScore, lblScoreText, lblHighScoreText, lblBlack As Label
     Dim x As Integer
     Dim ballV As String = "up"
     Dim ballH As String = "left"
@@ -15,7 +15,7 @@
         makeBlocks()
         placeBlocks()
     End Sub
-    Private Sub paddleTimer_Tick(sender As Object, e As EventArgs)
+    Private Sub paddleTimer_Tick(sender As Object, e As EventArgs) Handles paddleTimer.Tick
         If paddleDir = "left" And paddle.Location.X > 20 Then
             paddle.Location = New Point(paddle.Location.X - 4, paddle.Location.Y)
         End If
@@ -32,7 +32,7 @@
         If e.KeyCode = Keys.Space Then ballTimer.Start()
         If e.KeyCode = Keys.R And ballTimer.Enabled = False Then resetGame()
     End Sub
-    Private Sub ballTimer_Tick(sender As Object, e As EventArgs)
+    Private Sub ballTimer_Tick(sender As Object, e As EventArgs) Handles ballTimer.Tick
         If ballV = "up" Then ball.Location = New Point(ball.Location.X, ball.Location.Y - 4)
         If ballV = "down" Then ball.Location = New Point(ball.Location.X, ball.Location.Y + 4)
         If ballH = "left" Then ball.Location = New Point(ball.Location.X - 4, ball.Location.Y)
@@ -76,11 +76,11 @@
                     ballV = "up"
                 End If
                 blockCounter = blockCounter + 1
-                If block(x).BackColor = Color.Gray Then score += 10
-                If block(x).BackColor = Color.Yellow Then score += 50
-                If block(x).BackColor = Color.Red Then score += 100
+                If block(x).BackColor = Color.Gray Then score = score + 10
+                If block(x).BackColor = Color.Yellow Then score = score + 50
+                If block(x).BackColor = Color.Red Then score = score + 100
                 lblScore.Text = score
-                If blockCounter = 5 Then resetGame()
+                If blockCounter = 98 Then resetGame()
                 Exit For
             End If
         Next
@@ -156,14 +156,14 @@
         block(13).BackColor = Color.Yellow
         block(24).BackColor = Color.Yellow
         block(25).BackColor = Color.Yellow
-        block(28).BackColor = Color.Red
-        block(29).BackColor = Color.Red
         block(64).BackColor = Color.Yellow
         block(65).BackColor = Color.Yellow
-        block(68).BackColor = Color.Red
-        block(69).BackColor = Color.Red
         block(76).BackColor = Color.Yellow
         block(77).BackColor = Color.Yellow
+        block(28).BackColor = Color.Red
+        block(29).BackColor = Color.Red
+        block(68).BackColor = Color.Red
+        block(69).BackColor = Color.Red
     End Sub
     Public Sub makeObjects()
         topWall = New PictureBox
@@ -206,16 +206,16 @@
         lblBlack.Location = New Point(0, 0)
         Controls.Add(lblBlack)
 
-        lblSc = New Label
-        lblSc.BackColor = Color.Black
-        lblSc.ForeColor = Color.Red
-        lblSc.Size = New Size(100, 20)
-        lblSc.Location = New Point(55, 3)
-        lblSc.Text = "Score"
-        lblSc.Font = New Font("Arial", 12)
-        lblSc.TextAlign = ContentAlignment.MiddleCenter
-        Controls.Add(lblSc)
-        lblSc.BringToFront()
+        lblScoreText = New Label
+        lblScoreText.BackColor = Color.Black
+        lblScoreText.ForeColor = Color.Red
+        lblScoreText.Size = New Size(100, 20)
+        lblScoreText.Location = New Point(55, 3)
+        lblScoreText.Text = "Score"
+        lblScoreText.Font = New Font("Arial", 12)
+        lblScoreText.TextAlign = ContentAlignment.MiddleCenter
+        Controls.Add(lblScoreText)
+        lblScoreText.BringToFront()
 
         lblScore = New Label
         lblScore.BackColor = Color.Black
@@ -228,16 +228,16 @@
         Controls.Add(lblScore)
         lblScore.BringToFront()
 
-        lblHS = New Label
-        lblHS.BackColor = Color.Black
-        lblHS.ForeColor = Color.Red
-        lblHS.Size = New Size(100, 20)
-        lblHS.Location = New Point(250, 3)
-        lblHS.Text = "High Score"
-        lblHS.Font = New Font("Arial", 12)
-        lblHS.TextAlign = ContentAlignment.MiddleCenter
-        Controls.Add(lblHS)
-        lblHS.BringToFront()
+        lblHighScoreText = New Label
+        lblHighScoreText.BackColor = Color.Black
+        lblHighScoreText.ForeColor = Color.Red
+        lblHighScoreText.Size = New Size(100, 20)
+        lblHighScoreText.Location = New Point(250, 3)
+        lblHighScoreText.Text = "High Score"
+        lblHighScoreText.Font = New Font("Arial", 12)
+        lblHighScoreText.TextAlign = ContentAlignment.MiddleCenter
+        Controls.Add(lblHighScoreText)
+        lblHighScoreText.BringToFront()
 
         lblHighScore = New Label
         lblHighScore.BackColor = Color.Black
@@ -251,6 +251,6 @@
         lblHighScore.BringToFront()
     End Sub
     Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles Me.KeyUp
-        paddleDir = "gjfdhgdslkjhg"
+        paddleDir = "piplup"
     End Sub
 End Class
