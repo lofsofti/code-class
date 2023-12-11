@@ -9,7 +9,7 @@ Public Class Form1
     Dim TileHeight As Integer = 32      'Height, in Pixels of each tile - - You could change this if you wanted smaller or larger sized tiles, but I would make certain it holds the same value as TileWidth
     Dim NumLevels As Integer = 5       'Number of Levels in your Dungeon - If you increase this, you need to have both a map and imap text file for all levels or program will not be able to function
     Dim board(MapWidth, MapHeight) As PictureBox
-    Dim CurrentLevel As Integer = 1     'Stores the current level of the Dungeon hero is on - We start at level 1 and it goes up when we go up stairs, it goes down when we go down stairs
+    Dim CurrentLevel As Integer = 1   'Stores the current level of the Dungeon hero is on - We start at level 1 and it goes up when we go up stairs, it goes down when we go down stairs
     Dim map(MapWidth, MapHeight, NumLevels + 1) As String  'All of our map text files get loaded into this 3D array, which stores all background codes in (X, Y, Level)  map(3, 5, 2) stores the background texture for (3, 5) for Level 2
     Dim imap(MapWidth, MapHeight, NumLevels + 1) As String 'All of our item files get loaded into this 3D array, which stores all item codes in (X, Y, Level)  imap(10, 7, 5) stores the item texture for (10, 7) for Level 5
     Dim x, y, z As Integer             'Use in for loops to set starting values
@@ -24,6 +24,7 @@ Public Class Form1
     Dim ItemFiles(NumLevels + 1) As StreamReader  'We use StreamReader to read our various item text files.  We create an array of streamreaders, since each one holds a different item file
     Dim row As Integer
     Dim impassable As New List(Of String)
+    Dim potion, foodnum As Integer
     '  Dim heroSpriteSheet As Bitmap
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.Size = New Size(TileWidth * MapWidth + 16, TileHeight * MapHeight + 40)
@@ -69,6 +70,7 @@ Public Class Form1
         impassable.Add("w")   'No walking through wall textures
         impassable.Add("t")
         impassable.Add("W")
+        impassable.Add("i")
     End Sub
     Public Function isPassable(ByVal mapTexture As String) As Boolean
         For x = 0 To impassable.Count - 1
@@ -174,7 +176,6 @@ Public Class Form1
             back = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
         End If
         'load item bitmaps
-        '''''''''''''''''''''''''''IMPLEMT THE 4 NEW ONES
         If imap(x, y, CurrentLevel) = "k" Then
             item = New Bitmap(Image.FromFile("key.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "l" Then
@@ -187,15 +188,14 @@ Public Class Form1
             item = New Bitmap(Image.FromFile("stairsdown.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "s" Then
             item = New Bitmap(Image.FromFile("sword2.png"), New Size(TileWidth, TileHeight))
-
-        ElseIf imap(x, y, CurrentLevel) = "a" Then
-            item = New Bitmap(Image.FromFile("armor.png"), New Size(TileWidth, TileHeight))
-        ElseIf imap(x, y, CurrentLevel) = "e" Then
-            item = New Bitmap(Image.FromFile("exit.png"), New Size(TileWidth, TileHeight))
         ElseIf imap(x, y, CurrentLevel) = "y" Then
             item = New Bitmap(Image.FromFile("yellowpotion.png"), New Size(TileWidth, TileHeight))
-        ElseIf imap(x, y, CurrentLevel) = "r" Then
-            item = New Bitmap(Image.FromFile("stairsdown.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "b" Then
+            item = New Bitmap(Image.FromFile("bluepotion.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "o" Then
+            item = New Bitmap(Image.FromFile("gold.png"), New Size(TileWidth, TileHeight))
+        ElseIf imap(x, y, CurrentLevel) = "e" Then
+            item = New Bitmap(Image.FromFile("exit.png"), New Size(TileWidth, TileHeight))
             'Add more elseifs for more item choices
         Else
             item = New Bitmap(Image.FromFile("blank.png"), New Size(TileWidth, TileHeight))
@@ -247,6 +247,15 @@ Public Class Form1
         ElseIf imap(HeroX, HeroY, CurrentLevel) = "m" And numSwords > 0 Then
             numSwords -= 1
             imap(HeroX, HeroY, CurrentLevel) = "n"
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "y" Then
+            potion += 1
+            heroChoice = 7
+            imap(HeroX, HeroY, CurrentLevel) = "n"
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "f" And numSwords > 0 Then
+            foodnum += 1
+            imap(HeroX, HeroY, CurrentLevel) = "n"
+        ElseIf imap(HeroX, HeroY, CurrentLevel) = "e" And numSwords > 0 Then
+            Me.Close()
             '***************** Here is where you will add additional items interactions to your RPG game *********************
             'Add elseIf statements for other item codes how you want the program to react.
             'You could add sword objects that are kept track of it your inventory like keys
