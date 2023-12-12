@@ -121,7 +121,7 @@
   <data name="GRUBBBB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMIAAAEBCAYAAAAq6nqfAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAKThJREFUeF7tnd3LLclVxvMPGAgxCQYmIUISJILCEEQShhBBci4cRJEgjB8TjowG
+        vQAADr0BR/uQrQAAKThJREFUeF7tnd3LLclVxvMPGAgxCQYmIUISJILCEEQShhBBci4cRJEgjB8TjowG
         M77JRY5MMl5ockQEM8c4MaKTYE5kokYG5pCZTM6Fmhy9EWSiV0YvguBtbgO52e5fVT/dq2tX73fv3v1R
         3b0WPPR+3/3R1dXrqfVVVf2arctDDz202x8Gw+t++HU7fhPwOveZc/HII4/s7t69y2sXl0HlQNmuw2tf
         +0O7n37fe3cf/NBjuw9/4mO7p5/59O5Tzz2zu/N3z+3+/Gt3d1/8x3/oxBde+tsAPst3Pnr7qd3jV0/s
@@ -300,6 +300,24 @@
         VV7zmv8HmKVrj7DKiG4AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="ACtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="KStimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>107, 17</value>
+  </metadata>
+  <metadata name="HHtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>197, 17</value>
+  </metadata>
+  <metadata name="AZtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 17</value>
+  </metadata>
+  <metadata name="SoBtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>377, 17</value>
+  </metadata>
+  <metadata name="Rtimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>467, 17</value>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAQCAwMDAgQDAwMEBAQEBQkGBQUFBQsICAYJDQsNDQ0LDAwO

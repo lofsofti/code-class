@@ -24,3 +24,16 @@ H:\skool\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\
 H:\skool\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.exe
 H:\skool\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.xml
 H:\skool\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.pdb
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.exe.config
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.exe
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.pdb
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\bin\Debug\grub clicker.xml
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.vbproj.AssemblyReference.cache
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub_clicker.Form1.resources
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub_clicker.Form2.resources
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub_clicker.Resources.resources
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.vbproj.GenerateResource.cache
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.vbproj.CoreCompileInputs.cache
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.exe
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.xml
+C:\code-class\Comp Prog\final project\grub clicker\grub clicker\obj\Debug\grub clicker.pdb
