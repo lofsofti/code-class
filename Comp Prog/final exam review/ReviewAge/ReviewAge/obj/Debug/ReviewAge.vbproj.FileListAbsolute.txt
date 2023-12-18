@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\bin\Debug\ReviewAge.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\bin\Debug\ReviewAge.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\bin\Debug\ReviewAge.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\bin\Debug\ReviewAge.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewAge\ReviewAge\obj\Debug\ReviewAge.pdb

@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\bin\Debug\ReviewSumItUp.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\bin\Debug\ReviewSumItUp.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\bin\Debug\ReviewSumItUp.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\bin\Debug\ReviewSumItUp.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewSumItUp\ReviewSumItUp\obj\Debug\ReviewSumItUp.pdb
