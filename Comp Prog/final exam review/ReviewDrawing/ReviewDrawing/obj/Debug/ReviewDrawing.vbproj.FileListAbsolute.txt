@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\bin\Debug\ReviewDrawing.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\bin\Debug\ReviewDrawing.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\bin\Debug\ReviewDrawing.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\bin\Debug\ReviewDrawing.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewDrawing\ReviewDrawing\obj\Debug\ReviewDrawing.pdb

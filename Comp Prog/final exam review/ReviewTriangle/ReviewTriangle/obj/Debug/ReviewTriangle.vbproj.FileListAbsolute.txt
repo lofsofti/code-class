@@ -1,0 +1,12 @@
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.vbproj.AssemblyReference.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.Form1.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.Resources.resources
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.vbproj.GenerateResource.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.vbproj.CoreCompileInputs.cache
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\bin\Debug\ReviewTriangle.exe.config
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\bin\Debug\ReviewTriangle.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\bin\Debug\ReviewTriangle.pdb
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\bin\Debug\ReviewTriangle.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.exe
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.xml
+C:\Users\814240\Desktop\dixon class\code-class\Comp Prog\final exam review\ReviewTriangle\ReviewTriangle\obj\Debug\ReviewTriangle.pdb
